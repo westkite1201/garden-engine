@@ -30,10 +30,73 @@ function d(x: number, y: number, fill: string): string {
   return `<rect x="${x}" y="${y}" width="1" height="1" fill="${fill}"/>`;
 }
 
+/** Pixel-art stump on empty cell (10x10) */
+function stumpSvg(x: number, y: number): string {
+  const B = "#78350f"; // dark bark
+  const b = "#92400e"; // bark highlight
+  const r = "#6b5c4a"; // ring
+  //    BBB
+  //   BrBrB
+  //    bbb
+  //     b
+  return `<g>${d(x+3,y+4,B)}${d(x+4,y+4,B)}${d(x+5,y+4,B)}${d(x+2,y+5,B)}${d(x+3,y+5,r)}${d(x+4,y+5,B)}${d(x+5,y+5,r)}${d(x+6,y+5,B)}${d(x+3,y+6,b)}${d(x+4,y+6,b)}${d(x+5,y+6,b)}${d(x+4,y+7,b)}</g>`;
+}
+
+/** Pixel-art mushroom on empty cell (10x10) */
+function mushroomSvg(x: number, y: number, col: number, row: number): string {
+  // Two mushroom color variants based on cell position
+  const variant = cellHash(col + 1337, row + 42) % 2;
+  const cap = variant === 0 ? "#ef4444" : "#a78bfa"; // red or purple cap
+  const dot = "#fef3c7"; // cream spots
+  const S  = "#e5e1d8"; // stem
+  //    ccc
+  //   cDcDc
+  //    SSS
+  //     S
+  return `<g>${d(x+3,y+4,cap)}${d(x+4,y+4,cap)}${d(x+5,y+4,cap)}${d(x+2,y+5,cap)}${d(x+3,y+5,dot)}${d(x+4,y+5,cap)}${d(x+5,y+5,dot)}${d(x+6,y+5,cap)}${d(x+3,y+6,S)}${d(x+4,y+6,S)}${d(x+5,y+6,S)}${d(x+4,y+7,S)}</g>`;
+}
+
+/** Pixel-art round deciduous tree (10x10 cell) */
+function roundTreeSvg(x: number, y: number): string {
+  const C = "#15803d"; // canopy dark
+  const c = "#4ade80"; // canopy highlight
+  const B = "#92400e"; // bark
+  //    CCC
+  //   CcCcC
+  //   CCCCC
+  //    CCC
+  //     B
+  //     B
+  return `<g>${d(x+3,y+1,C)}${d(x+4,y+1,C)}${d(x+5,y+1,C)}${d(x+2,y+2,C)}${d(x+3,y+2,c)}${d(x+4,y+2,C)}${d(x+5,y+2,c)}${d(x+6,y+2,C)}${d(x+2,y+3,C)}${d(x+3,y+3,C)}${d(x+4,y+3,C)}${d(x+5,y+3,C)}${d(x+6,y+3,C)}${d(x+3,y+4,C)}${d(x+4,y+4,C)}${d(x+5,y+4,C)}${d(x+4,y+5,B)}${d(x+4,y+6,B)}</g>`;
+}
+
+/** Pixel-art pine / conifer tree (10x10 cell) */
+function pineTreeSvg(x: number, y: number): string {
+  const P = "#166534"; // pine dark
+  const p = "#15803d"; // pine light
+  const B = "#92400e"; // bark
+  //     P
+  //    PpP
+  //   PpPpP
+  //    PpP
+  //   PpPpP
+  //     B
+  //     B
+  return `<g>${d(x+4,y+0,P)}${d(x+3,y+1,P)}${d(x+4,y+1,p)}${d(x+5,y+1,P)}${d(x+2,y+2,P)}${d(x+3,y+2,p)}${d(x+4,y+2,P)}${d(x+5,y+2,p)}${d(x+6,y+2,P)}${d(x+3,y+3,P)}${d(x+4,y+3,p)}${d(x+5,y+3,P)}${d(x+2,y+4,P)}${d(x+3,y+4,p)}${d(x+4,y+4,P)}${d(x+5,y+4,p)}${d(x+6,y+4,P)}${d(x+4,y+5,B)}${d(x+4,y+6,B)}</g>`;
+}
+
+/** Returns true ~rate% of the time, deterministically by cell position */
+function isTree(col: number, row: number, rate: number): boolean {
+  // Use a different seed offset so tree distribution differs from flower color
+  const h = cellHash(col + 9973, row + 6271);
+  return (h % 100) < rate;
+}
+
 /**
  * Pixel-art plant SVGs for each growth level.
  * All shapes use 1px rect dots for consistent pixel style.
  * x, y = cell top-left corner. Cell is 10x10.
+ * Lv4 cells have ~20% chance to be a tree instead of a flower.
  */
 function plantSvg(level: number, col: number, row: number, x: number, y: number): string {
   const fc = FLOWER_COLORS[cellHash(col, row) % FLOWER_COLORS.length];
@@ -68,6 +131,13 @@ function plantSvg(level: number, col: number, row: number, x: number, y: number)
       return `<g>${d(x+4,y+1,fc.petal)}${d(x+3,y+2,fc.petal)}${d(x+4,y+2,fc.petal)}${d(x+5,y+2,fc.petal)}${d(x+3,y+3,g)}${d(x+4,y+3,G)}${d(x+5,y+3,g)}${d(x+4,y+4,G)}${d(x+4,y+5,G)}${d(x+4,y+6,G)}</g>`;
 
     case 4:
+      // ~20% chance: tree instead of flower
+      if (isTree(col, row, 20)) {
+        // 50/50 split between round and pine
+        return cellHash(col, row) % 2 === 0
+          ? roundTreeSvg(x, y)
+          : pineTreeSvg(x, y);
+      }
       // Full bloom: open flower with colored petals + center + stem
       //    p p
       //   ppcpp
@@ -165,6 +235,27 @@ export function buildGrowthLayer(
     rects.push(
       `<rect x="${x}" y="${y}" width="${CELL_SIZE}" height="${CELL_SIZE}" rx="${BORDER_RADIUS}" fill="none" style="transform-origin:${cx}px ${cy}px; animation: bloom-pop ${BLOOM_POP_DURATION}s ease ${bloomDelay.toFixed(2)}s;"/>`,
     );
+  }
+
+  // Empty-cell decorations: stumps (~10%) and mushrooms (~5%)
+  // These are static (no animation), placed from the start
+  for (const cell of ctx.grid) {
+    if (cell.count > 0) continue;
+    const key = `${cell.x},${cell.y}`;
+    if (timeline.growthStartAbsS.has(key)) continue;
+
+    const x = gridLeftX + cell.x * (CELL_SIZE + GAP);
+    const y = gridTopY + cell.y * (CELL_SIZE + GAP);
+    const h = cellHash(cell.x + 5381, cell.y + 8527);
+    const roll = h % 100;
+
+    if (roll < 10) {
+      // ~10%: stump
+      rects.push(`<g opacity="0.6">${stumpSvg(x, y)}</g>`);
+    } else if (roll < 15) {
+      // ~5%: mushroom
+      rects.push(`<g opacity="0.6">${mushroomSvg(x, y, cell.x, cell.y)}</g>`);
+    }
   }
 
   return {

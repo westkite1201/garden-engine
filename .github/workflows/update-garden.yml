@@ -1,0 +1,31 @@
+name: Update Garden
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 매일 자정 (UTC)
+  workflow_dispatch: # 수동 실행
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate garden SVG
+        uses: westkite1201/garden-engine@v1
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          # username: "" # 비워두면 토큰 소유자
+          # theme: spring
+          # output_path: assets/garden.svg
+
+      - name: Commit & push
+        run: |
+          git config user.name "garden-bot"
+          git config user.email "garden-bot@users.noreply.github.com"
+          git add assets/garden.svg
+          git diff --staged --quiet || git commit -m "chore: update garden 🌱"
+          git push

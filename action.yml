@@ -1,0 +1,51 @@
+name: "Garden Engine"
+description: "GitHub 잔디를 픽셀아트 정원 애니메이션 SVG로 변환합니다"
+author: "westkite1201"
+
+branding:
+  icon: "sun"
+  color: "green"
+
+inputs:
+  github_token:
+    description: "GitHub token (read:user scope 필요)"
+    required: true
+  username:
+    description: "GitHub username (비워두면 토큰 소유자)"
+    required: false
+    default: ""
+  theme:
+    description: "정원 테마"
+    required: false
+    default: "spring"
+  output_path:
+    description: "SVG 출력 경로"
+    required: false
+    default: "assets/garden.svg"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: "20"
+
+    - name: Install dependencies
+      run: npm ci
+      shell: bash
+      working-directory: ${{ github.action_path }}
+
+    - name: Build
+      run: npm run build
+      shell: bash
+      working-directory: ${{ github.action_path }}
+
+    - name: Generate garden SVG
+      run: node ${{ github.action_path }}/dist/index.js
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github_token }}
+        GITHUB_USERNAME: ${{ inputs.username }}
+        THEME: ${{ inputs.theme }}
+        OUTPUT_PATH: ${{ inputs.output_path }}

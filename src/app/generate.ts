@@ -18,9 +18,17 @@ import { dirname, join } from "path";
 import { README_TARGET_WIDTH } from "../config/constants.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT_PATH = join(__dirname, "..", "..", "assets", "garden.svg");
+const DEFAULT_OUT = join(__dirname, "..", "..", "assets", "garden.svg");
+
+function resolveOutputPath(): string {
+  const envPath = process.env.OUTPUT_PATH?.trim();
+  if (!envPath) return DEFAULT_OUT;
+  // Action context: resolve relative to cwd, not module dir
+  return envPath.startsWith("/") ? envPath : join(process.cwd(), envPath);
+}
 
 export async function generate(themeId: string): Promise<void> {
+  const outPath = resolveOutputPath();
   const username = process.env.GITHUB_USERNAME?.trim() || undefined;
   console.log(`Fetching contribution data${username ? ` for ${username}` : ""}...`);
 
@@ -29,7 +37,7 @@ export async function generate(themeId: string): Promise<void> {
   console.log(`Grid: ${grid.length} cells`);
 
   if (grid.length === 0) {
-    writeFileSync(OUT_PATH, `<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0"/>`, "utf-8");
+    writeFileSync(outPath, `<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0"/>`, "utf-8");
     console.log("Empty grid, wrote empty SVG.");
     return;
   }
@@ -77,7 +85,7 @@ export async function generate(themeId: string): Promise<void> {
     effectKeyframes,
   });
 
-  writeFileSync(OUT_PATH, svg, "utf-8");
+  writeFileSync(outPath, svg, "utf-8");
   const sizeKB = (Buffer.byteLength(svg, "utf-8") / 1024).toFixed(1);
-  console.log(`Wrote ${OUT_PATH} (${sizeKB} KB)`);
+  console.log(`Wrote ${outPath} (${sizeKB} KB)`);
 }
