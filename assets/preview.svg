@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 400 130">
+  <defs>
+    <style>
+      @keyframes bee-fly {
+        0%   { transform: translate(60px, 30px); }
+        15%  { transform: translate(108px, 30px); }
+        30%  { transform: translate(108px, 54px); }
+        50%  { transform: translate(156px, 54px); }
+        65%  { transform: translate(156px, 30px); }
+        80%  { transform: translate(204px, 30px); }
+        100% { transform: translate(252px, 30px); }
+      }
+      @keyframes sprout-1 {
+        0%, 30% { opacity: 0; transform: scale(0.3); }
+        50%     { opacity: 1; transform: scale(1.1); }
+        60%     { opacity: 1; transform: scale(1); }
+        100%    { opacity: 1; transform: scale(1); }
+      }
+      @keyframes sprout-2 {
+        0%, 40% { opacity: 0; transform: scale(0.3); }
+        60%     { opacity: 1; transform: scale(1.1); }
+        70%     { opacity: 1; transform: scale(1); }
+        100%    { opacity: 1; transform: scale(1); }
+      }
+      @keyframes sprout-3 {
+        0%, 50% { opacity: 0; transform: scale(0.3); }
+        70%     { opacity: 1; transform: scale(1.1); }
+        80%     { opacity: 1; transform: scale(1); }
+        100%    { opacity: 1; transform: scale(1); }
+      }
+      @keyframes sprout-4 {
+        0%, 60% { opacity: 0; transform: scale(0.3); }
+        80%     { opacity: 1; transform: scale(1.1); }
+        90%     { opacity: 1; transform: scale(1); }
+        100%    { opacity: 1; transform: scale(1); }
+      }
+      @keyframes grow-1 {
+        0%, 25% { fill: #161b22; }
+        50%     { fill: #0e4429; }
+        100%    { fill: #0e4429; }
+      }
+      @keyframes grow-2 {
+        0%, 30% { fill: #161b22; }
+        50%     { fill: #0e4429; }
+        70%     { fill: #006d32; }
+        100%    { fill: #006d32; }
+      }
+      @keyframes grow-3 {
+        0%, 35% { fill: #161b22; }
+        55%     { fill: #006d32; }
+        75%     { fill: #26a641; }
+        100%    { fill: #26a641; }
+      }
+      @keyframes grow-4 {
+        0%, 40% { fill: #161b22; }
+        55%     { fill: #006d32; }
+        70%     { fill: #26a641; }
+        85%     { fill: #39d353; }
+        100%    { fill: #39d353; }
+      }
+      @keyframes bloom-pop {
+        0%, 85% { transform: scale(1); }
+        92%     { transform: scale(1.15); }
+        100%    { transform: scale(1); }
+      }
+      @keyframes wing-flutter {
+        0%, 100% { opacity: 0.6; }
+        50%      { opacity: 0.3; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="130" fill="#0d1117"/>
+
+  <!-- Title area -->
+  <text x="200" y="16" text-anchor="middle" font-family="monospace" font-size="7" fill="#8b949e" letter-spacing="0.5">Garden Engine — Preview</text>
+
+  <!-- Fence border -->
+  <rect x="46" y="22" width="308" height="100" rx="6" ry="6"
+    fill="none" stroke="#8B6914" stroke-width="3"
+    stroke-dasharray="10 5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Soil layer: 7 days × 24 weeks grid (simplified to show concept) -->
+  <g id="soil">
+    <!-- Row 0 -->
+    <rect x="56" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="68" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="80" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="92" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="104" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="116" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="128" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="140" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="152" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="164" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="176" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="188" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="200" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="212" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="224" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="236" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="248" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="260" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="272" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="284" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="296" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="308" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="320" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="332" y="32" width="10" height="10" rx="2" fill="#161b22"/>
+    <!-- Row 1 -->
+    <rect x="56" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="68" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="80" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="92" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="104" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="116" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="128" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="140" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="152" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="164" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="176" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="188" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="200" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="212" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="224" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="236" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="248" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="260" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="272" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="284" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="296" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="308" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="320" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="332" y="44" width="10" height="10" rx="2" fill="#161b22"/>
+    <!-- Row 2 -->
+    <rect x="56" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="68" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="80" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="92" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="104" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="116" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="128" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="140" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="152" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="164" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="176" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="188" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="200" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="212" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="224" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="236" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="248" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="260" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="272" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="284" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="296" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="308" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="320" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="332" y="56" width="10" height="10" rx="2" fill="#161b22"/>
+    <!-- Row 3 -->
+    <rect x="56" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="68" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="80" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="92" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="104" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="116" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="128" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="140" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="152" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="164" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="176" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="188" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="200" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="212" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="224" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="236" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="248" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="260" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="272" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="284" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="296" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="308" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="320" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="332" y="68" width="10" height="10" rx="2" fill="#161b22"/>
+    <!-- Row 4 -->
+    <rect x="56" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="68" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="80" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="92" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="104" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="116" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="128" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="140" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="152" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="164" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="176" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="188" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="200" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="212" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="224" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="236" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="248" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="260" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="272" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="284" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="296" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="308" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="320" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="332" y="80" width="10" height="10" rx="2" fill="#161b22"/>
+    <!-- Row 5 -->
+    <rect x="56" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="68" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="80" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="92" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="104" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="116" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="128" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="140" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="152" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="164" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="176" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="188" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="200" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="212" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="224" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="236" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="248" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="260" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="272" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="284" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="296" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="308" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="320" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="332" y="92" width="10" height="10" rx="2" fill="#161b22"/>
+    <!-- Row 6 -->
+    <rect x="56" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="68" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="80" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="92" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="104" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="116" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="128" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="140" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="152" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="164" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="176" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="188" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="200" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="212" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="224" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="236" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="248" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="260" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="272" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="284" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="296" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="308" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="320" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="332" y="104" width="10" height="10" rx="2" fill="#161b22"/>
+  </g>
+
+  <!-- Growth cells (animated color transitions) -->
+  <g id="growth">
+    <!-- Scattered contribution cells with growth animation -->
+    <rect x="80"  y="44"  width="10" height="10" rx="2" style="animation: grow-1 6s ease 0s forwards;"/>
+    <rect x="104" y="32"  width="10" height="10" rx="2" style="animation: grow-2 6s ease 0.3s forwards;"/>
+    <rect x="116" y="56"  width="10" height="10" rx="2" style="animation: grow-1 6s ease 0.5s forwards;"/>
+    <rect x="128" y="44"  width="10" height="10" rx="2" style="animation: grow-3 6s ease 0.8s forwards;"/>
+    <rect x="140" y="68"  width="10" height="10" rx="2" style="animation: grow-2 6s ease 1.0s forwards;"/>
+    <rect x="152" y="32"  width="10" height="10" rx="2" style="animation: grow-4 6s ease 1.2s forwards;"/>
+    <rect x="152" y="44"  width="10" height="10" rx="2" style="animation: grow-3 6s ease 1.3s forwards;"/>
+    <rect x="164" y="56"  width="10" height="10" rx="2" style="animation: grow-2 6s ease 1.5s forwards;"/>
+    <rect x="164" y="80"  width="10" height="10" rx="2" style="animation: grow-1 6s ease 1.6s forwards;"/>
+    <rect x="176" y="44"  width="10" height="10" rx="2" style="animation: grow-4 6s ease 1.8s forwards;"/>
+    <rect x="176" y="68"  width="10" height="10" rx="2" style="animation: grow-3 6s ease 1.9s forwards;"/>
+    <rect x="188" y="32"  width="10" height="10" rx="2" style="animation: grow-2 6s ease 2.0s forwards;"/>
+    <rect x="188" y="56"  width="10" height="10" rx="2" style="animation: grow-4 6s ease 2.1s forwards;"/>
+    <rect x="200" y="44"  width="10" height="10" rx="2" style="animation: grow-1 6s ease 2.3s forwards;"/>
+    <rect x="200" y="68"  width="10" height="10" rx="2" style="animation: grow-3 6s ease 2.4s forwards;"/>
+    <rect x="200" y="92"  width="10" height="10" rx="2" style="animation: grow-2 6s ease 2.5s forwards;"/>
+    <rect x="212" y="56"  width="10" height="10" rx="2" style="animation: grow-4 6s ease 2.6s forwards;"/>
+    <rect x="224" y="32"  width="10" height="10" rx="2" style="animation: grow-3 6s ease 2.8s forwards;"/>
+    <rect x="224" y="44"  width="10" height="10" rx="2" style="animation: grow-2 6s ease 2.9s forwards;"/>
+    <rect x="236" y="68"  width="10" height="10" rx="2" style="animation: grow-1 6s ease 3.0s forwards;"/>
+    <rect x="248" y="56"  width="10" height="10" rx="2" style="animation: grow-4 6s ease 3.2s forwards;"/>
+    <rect x="260" y="32"  width="10" height="10" rx="2" style="animation: grow-2 6s ease 3.3s forwards;"/>
+    <rect x="260" y="80"  width="10" height="10" rx="2" style="animation: grow-1 6s ease 3.4s forwards;"/>
+    <rect x="272" y="44"  width="10" height="10" rx="2" style="animation: grow-3 6s ease 3.5s forwards;"/>
+    <rect x="284" y="56"  width="10" height="10" rx="2" style="animation: grow-2 6s ease 3.7s forwards;"/>
+    <rect x="296" y="68"  width="10" height="10" rx="2" style="animation: grow-4 6s ease 3.8s forwards;"/>
+    <rect x="308" y="44"  width="10" height="10" rx="2" style="animation: grow-1 6s ease 3.9s forwards;"/>
+    <rect x="320" y="92"  width="10" height="10" rx="2" style="animation: grow-3 6s ease 4.0s forwards;"/>
+  </g>
+
+  <!-- Pixel-art plants (grow in after cells color up) -->
+  <g id="plants">
+    <!-- Lv1 Sprout at (80,44) -->
+    <g style="opacity:0; transform-origin:85px 49px; animation: sprout-1 6s ease 0s forwards;">
+      <rect x="84" y="47" width="1" height="1" fill="#4ade80"/>
+      <rect x="83" y="48" width="1" height="1" fill="#4ade80"/><rect x="84" y="48" width="1" height="1" fill="#22c55e"/><rect x="85" y="48" width="1" height="1" fill="#4ade80"/>
+      <rect x="84" y="49" width="1" height="1" fill="#22c55e"/>
+      <rect x="84" y="50" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv2 Leaf at (104,32) -->
+    <g style="opacity:0; transform-origin:109px 37px; animation: sprout-1 6s ease 0.3s forwards;">
+      <rect x="107" y="34" width="1" height="1" fill="#4ade80"/><rect x="108" y="34" width="1" height="1" fill="#22c55e"/><rect x="109" y="34" width="1" height="1" fill="#4ade80"/>
+      <rect x="106" y="35" width="1" height="1" fill="#4ade80"/><rect x="108" y="35" width="1" height="1" fill="#22c55e"/><rect x="110" y="35" width="1" height="1" fill="#4ade80"/>
+      <rect x="108" y="36" width="1" height="1" fill="#22c55e"/>
+      <rect x="108" y="37" width="1" height="1" fill="#22c55e"/>
+      <rect x="108" y="38" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv3 Bud at (128,44) — lavender -->
+    <g style="opacity:0; transform-origin:133px 49px; animation: sprout-2 6s ease 0.5s forwards;">
+      <rect x="132" y="45" width="1" height="1" fill="#c4b5fd"/>
+      <rect x="131" y="46" width="1" height="1" fill="#c4b5fd"/><rect x="132" y="46" width="1" height="1" fill="#c4b5fd"/><rect x="133" y="46" width="1" height="1" fill="#c4b5fd"/>
+      <rect x="131" y="47" width="1" height="1" fill="#4ade80"/><rect x="132" y="47" width="1" height="1" fill="#22c55e"/><rect x="133" y="47" width="1" height="1" fill="#4ade80"/>
+      <rect x="132" y="48" width="1" height="1" fill="#22c55e"/>
+      <rect x="132" y="49" width="1" height="1" fill="#22c55e"/>
+      <rect x="132" y="50" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv4 Full Bloom at (152,32) — cherry blossom -->
+    <g style="opacity:0; transform-origin:157px 37px; animation: sprout-2 6s ease 0.8s forwards;">
+      <rect x="155" y="32" width="1" height="1" fill="#f9a8d4"/><rect x="157" y="32" width="1" height="1" fill="#f9a8d4"/>
+      <rect x="154" y="33" width="1" height="1" fill="#f9a8d4"/><rect x="155" y="33" width="1" height="1" fill="#f9a8d4"/><rect x="156" y="33" width="1" height="1" fill="#fbbf24"/><rect x="157" y="33" width="1" height="1" fill="#f9a8d4"/><rect x="158" y="33" width="1" height="1" fill="#f9a8d4"/>
+      <rect x="155" y="34" width="1" height="1" fill="#f9a8d4"/><rect x="156" y="34" width="1" height="1" fill="#f9a8d4"/><rect x="157" y="34" width="1" height="1" fill="#f9a8d4"/>
+      <rect x="155" y="35" width="1" height="1" fill="#4ade80"/><rect x="156" y="35" width="1" height="1" fill="#22c55e"/><rect x="157" y="35" width="1" height="1" fill="#4ade80"/>
+      <rect x="156" y="36" width="1" height="1" fill="#22c55e"/>
+      <rect x="156" y="37" width="1" height="1" fill="#22c55e"/>
+      <rect x="156" y="38" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv4 Full Bloom at (176,44) — coral -->
+    <g style="opacity:0; transform-origin:181px 49px; animation: sprout-3 6s ease 1.2s forwards;">
+      <rect x="179" y="44" width="1" height="1" fill="#fca5a5"/><rect x="181" y="44" width="1" height="1" fill="#fca5a5"/>
+      <rect x="178" y="45" width="1" height="1" fill="#fca5a5"/><rect x="179" y="45" width="1" height="1" fill="#fca5a5"/><rect x="180" y="45" width="1" height="1" fill="#fcd34d"/><rect x="181" y="45" width="1" height="1" fill="#fca5a5"/><rect x="182" y="45" width="1" height="1" fill="#fca5a5"/>
+      <rect x="179" y="46" width="1" height="1" fill="#fca5a5"/><rect x="180" y="46" width="1" height="1" fill="#fca5a5"/><rect x="181" y="46" width="1" height="1" fill="#fca5a5"/>
+      <rect x="179" y="47" width="1" height="1" fill="#4ade80"/><rect x="180" y="47" width="1" height="1" fill="#22c55e"/><rect x="181" y="47" width="1" height="1" fill="#4ade80"/>
+      <rect x="180" y="48" width="1" height="1" fill="#22c55e"/>
+      <rect x="180" y="49" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv4 Full Bloom at (188,56) — sky blue -->
+    <g style="opacity:0; transform-origin:193px 61px; animation: sprout-3 6s ease 1.5s forwards;">
+      <rect x="191" y="56" width="1" height="1" fill="#93c5fd"/><rect x="193" y="56" width="1" height="1" fill="#93c5fd"/>
+      <rect x="190" y="57" width="1" height="1" fill="#93c5fd"/><rect x="191" y="57" width="1" height="1" fill="#93c5fd"/><rect x="192" y="57" width="1" height="1" fill="#fef08a"/><rect x="193" y="57" width="1" height="1" fill="#93c5fd"/><rect x="194" y="57" width="1" height="1" fill="#93c5fd"/>
+      <rect x="191" y="58" width="1" height="1" fill="#93c5fd"/><rect x="192" y="58" width="1" height="1" fill="#93c5fd"/><rect x="193" y="58" width="1" height="1" fill="#93c5fd"/>
+      <rect x="191" y="59" width="1" height="1" fill="#4ade80"/><rect x="192" y="59" width="1" height="1" fill="#22c55e"/><rect x="193" y="59" width="1" height="1" fill="#4ade80"/>
+      <rect x="192" y="60" width="1" height="1" fill="#22c55e"/>
+      <rect x="192" y="61" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv3 Bud at (200,68) — orange -->
+    <g style="opacity:0; transform-origin:205px 73px; animation: sprout-3 6s ease 1.8s forwards;">
+      <rect x="204" y="69" width="1" height="1" fill="#fdba74"/>
+      <rect x="203" y="70" width="1" height="1" fill="#fdba74"/><rect x="204" y="70" width="1" height="1" fill="#fdba74"/><rect x="205" y="70" width="1" height="1" fill="#fdba74"/>
+      <rect x="203" y="71" width="1" height="1" fill="#4ade80"/><rect x="204" y="71" width="1" height="1" fill="#22c55e"/><rect x="205" y="71" width="1" height="1" fill="#4ade80"/>
+      <rect x="204" y="72" width="1" height="1" fill="#22c55e"/>
+      <rect x="204" y="73" width="1" height="1" fill="#22c55e"/>
+      <rect x="204" y="74" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv4 Full Bloom at (212,56) — magenta -->
+    <g style="opacity:0; transform-origin:217px 61px; animation: sprout-4 6s ease 2.0s forwards;">
+      <rect x="215" y="56" width="1" height="1" fill="#f0abfc"/><rect x="217" y="56" width="1" height="1" fill="#f0abfc"/>
+      <rect x="214" y="57" width="1" height="1" fill="#f0abfc"/><rect x="215" y="57" width="1" height="1" fill="#f0abfc"/><rect x="216" y="57" width="1" height="1" fill="#fbbf24"/><rect x="217" y="57" width="1" height="1" fill="#f0abfc"/><rect x="218" y="57" width="1" height="1" fill="#f0abfc"/>
+      <rect x="215" y="58" width="1" height="1" fill="#f0abfc"/><rect x="216" y="58" width="1" height="1" fill="#f0abfc"/><rect x="217" y="58" width="1" height="1" fill="#f0abfc"/>
+      <rect x="215" y="59" width="1" height="1" fill="#4ade80"/><rect x="216" y="59" width="1" height="1" fill="#22c55e"/><rect x="217" y="59" width="1" height="1" fill="#4ade80"/>
+      <rect x="216" y="60" width="1" height="1" fill="#22c55e"/>
+      <rect x="216" y="61" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv4 Full Bloom at (248,56) — cherry blossom -->
+    <g style="opacity:0; transform-origin:253px 61px; animation: sprout-4 6s ease 2.5s forwards;">
+      <rect x="251" y="56" width="1" height="1" fill="#f9a8d4"/><rect x="253" y="56" width="1" height="1" fill="#f9a8d4"/>
+      <rect x="250" y="57" width="1" height="1" fill="#f9a8d4"/><rect x="251" y="57" width="1" height="1" fill="#f9a8d4"/><rect x="252" y="57" width="1" height="1" fill="#fbbf24"/><rect x="253" y="57" width="1" height="1" fill="#f9a8d4"/><rect x="254" y="57" width="1" height="1" fill="#f9a8d4"/>
+      <rect x="251" y="58" width="1" height="1" fill="#f9a8d4"/><rect x="252" y="58" width="1" height="1" fill="#f9a8d4"/><rect x="253" y="58" width="1" height="1" fill="#f9a8d4"/>
+      <rect x="251" y="59" width="1" height="1" fill="#4ade80"/><rect x="252" y="59" width="1" height="1" fill="#22c55e"/><rect x="253" y="59" width="1" height="1" fill="#4ade80"/>
+      <rect x="252" y="60" width="1" height="1" fill="#22c55e"/>
+      <rect x="252" y="61" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv4 Full Bloom at (296,68) — lavender -->
+    <g style="opacity:0; transform-origin:301px 73px; animation: sprout-4 6s ease 3.0s forwards;">
+      <rect x="299" y="68" width="1" height="1" fill="#c4b5fd"/><rect x="301" y="68" width="1" height="1" fill="#c4b5fd"/>
+      <rect x="298" y="69" width="1" height="1" fill="#c4b5fd"/><rect x="299" y="69" width="1" height="1" fill="#c4b5fd"/><rect x="300" y="69" width="1" height="1" fill="#fde68a"/><rect x="301" y="69" width="1" height="1" fill="#c4b5fd"/><rect x="302" y="69" width="1" height="1" fill="#c4b5fd"/>
+      <rect x="299" y="70" width="1" height="1" fill="#c4b5fd"/><rect x="300" y="70" width="1" height="1" fill="#c4b5fd"/><rect x="301" y="70" width="1" height="1" fill="#c4b5fd"/>
+      <rect x="299" y="71" width="1" height="1" fill="#4ade80"/><rect x="300" y="71" width="1" height="1" fill="#22c55e"/><rect x="301" y="71" width="1" height="1" fill="#4ade80"/>
+      <rect x="300" y="72" width="1" height="1" fill="#22c55e"/>
+      <rect x="300" y="73" width="1" height="1" fill="#22c55e"/>
+    </g>
+
+    <!-- Lv3 Bud at (320,92) — coral -->
+    <g style="opacity:0; transform-origin:325px 97px; animation: sprout-4 6s ease 3.2s forwards;">
+      <rect x="324" y="93" width="1" height="1" fill="#fca5a5"/>
+      <rect x="323" y="94" width="1" height="1" fill="#fca5a5"/><rect x="324" y="94" width="1" height="1" fill="#fca5a5"/><rect x="325" y="94" width="1" height="1" fill="#fca5a5"/>
+      <rect x="323" y="95" width="1" height="1" fill="#4ade80"/><rect x="324" y="95" width="1" height="1" fill="#22c55e"/><rect x="325" y="95" width="1" height="1" fill="#4ade80"/>
+      <rect x="324" y="96" width="1" height="1" fill="#22c55e"/>
+      <rect x="324" y="97" width="1" height="1" fill="#22c55e"/>
+      <rect x="324" y="98" width="1" height="1" fill="#22c55e"/>
+    </g>
+  </g>
+
+  <!-- Bloom wave pop effect -->
+  <g id="bloom-wave">
+    <rect x="152" y="32" width="10" height="10" rx="2" fill="none" style="transform-origin:157px 37px; animation: bloom-pop 0.4s ease 5.0s;"/>
+    <rect x="176" y="44" width="10" height="10" rx="2" fill="none" style="transform-origin:181px 49px; animation: bloom-pop 0.4s ease 5.1s;"/>
+    <rect x="188" y="56" width="10" height="10" rx="2" fill="none" style="transform-origin:193px 61px; animation: bloom-pop 0.4s ease 5.2s;"/>
+    <rect x="212" y="56" width="10" height="10" rx="2" fill="none" style="transform-origin:217px 61px; animation: bloom-pop 0.4s ease 5.3s;"/>
+    <rect x="248" y="56" width="10" height="10" rx="2" fill="none" style="transform-origin:253px 61px; animation: bloom-pop 0.4s ease 5.5s;"/>
+    <rect x="296" y="68" width="10" height="10" rx="2" fill="none" style="transform-origin:301px 73px; animation: bloom-pop 0.4s ease 5.7s;"/>
+  </g>
+
+  <!-- Animated bee actor -->
+  <g id="actor" style="animation: bee-fly 6s linear infinite;">
+    <!-- Wing (top) -->
+    <rect x="2" y="1" width="2" height="1" fill="#fff" opacity="0.6" style="animation: wing-flutter 0.3s ease infinite;"/>
+    <rect x="6" y="1" width="2" height="1" fill="#fff" opacity="0.6" style="animation: wing-flutter 0.3s ease 0.15s infinite;"/>
+    <rect x="1" y="2" width="3" height="1" fill="#fff" opacity="0.45"/>
+    <rect x="6" y="2" width="3" height="1" fill="#fff" opacity="0.45"/>
+    <!-- Body (yellow + black stripes) -->
+    <rect x="3" y="3" width="4" height="1" fill="#f6c541"/>
+    <rect x="3" y="4" width="4" height="1" fill="#333"/>
+    <rect x="3" y="5" width="4" height="1" fill="#f6c541"/>
+    <rect x="3" y="6" width="4" height="1" fill="#333"/>
+    <rect x="3" y="7" width="4" height="1" fill="#f6c541"/>
+    <!-- Head -->
+    <rect x="7" y="4" width="2" height="3" fill="#333"/>
+    <!-- Eye -->
+    <rect x="8" y="4" width="1" height="1" fill="#fff"/>
+    <!-- Stinger -->
+    <rect x="2" y="5" width="1" height="1" fill="#333"/>
+  </g>
+</svg>
