@@ -1,0 +1,12 @@
+// Default timing values (seconds)
+export const ACTOR_CELL_TIME = 0.8;
+export const WATER_DWELL_BASE = 2.0;
+export const WATER_DWELL_PER_LEVEL = 0.4;
+export const BLOOM_WAVE_SPEED = 0.08;
+export const INTRO_DURATION = 1.0;
+export const OUTRO_DURATION = 2.0;
+export const ACTOR_FADE_IN = 0.3;
+export const ACTOR_FADE_OUT = 0.3;
+export const GROWTH_DURATION = 1.8;
+export const GROWTH_DELAY_AFTER_WATER = 0.2;
+export const BLOOM_POP_DURATION = 0.4;
