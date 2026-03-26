@@ -1,0 +1,55 @@
+name: Update Garden SVG
+
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      theme:
+        description: "Choose theme"
+        required: true
+        type: choice
+        options:
+          - spring
+        default: spring
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Generate garden SVG
+        run: node dist/index.js --theme=${{ inputs.theme || 'spring' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME || github.repository_owner }}
+
+      - name: Push to profile repo
+        env:
+          PAT: ${{ secrets.PROFILE_README_TOKEN }}
+          OWNER: ${{ secrets.GITHUB_USERNAME || github.repository_owner }}
+        run: |
+          if [ -z "$PAT" ]; then
+            echo "PROFILE_README_TOKEN not set, skipping push"
+            exit 0
+          fi
+          git clone "https://x-access-token:${PAT}@github.com/${OWNER}/${OWNER}.git" ../profile-repo
+          mkdir -p ../profile-repo/assets
+          cp assets/garden.svg ../profile-repo/assets/garden.svg
+          cd ../profile-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/garden.svg
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "chore: update garden SVG [auto]"
+          git push
