@@ -30,6 +30,75 @@ function d(x: number, y: number, fill: string): string {
   return `<rect x="${x}" y="${y}" width="1" height="1" fill="${fill}"/>`;
 }
 
+/** Pixel-art pebbles / small stones on empty cell (10x10) */
+function stoneSvg(x: number, y: number, col: number, row: number): string {
+  const variant = cellHash(col + 2222, row + 3333) % 3;
+  const S1 = "#6b7280"; // grey stone
+  const S2 = "#9ca3af"; // light grey
+  const S3 = "#4b5563"; // dark grey
+  if (variant === 0) {
+    // Two small pebbles
+    return `<g>${d(x+2,y+6,S1)}${d(x+3,y+6,S2)}${d(x+3,y+7,S1)}${d(x+6,y+5,S3)}${d(x+7,y+5,S2)}${d(x+6,y+6,S2)}${d(x+7,y+6,S1)}</g>`;
+  } else if (variant === 1) {
+    // One medium rock
+    return `<g>${d(x+3,y+5,S3)}${d(x+4,y+5,S1)}${d(x+5,y+5,S3)}${d(x+3,y+6,S1)}${d(x+4,y+6,S2)}${d(x+5,y+6,S1)}${d(x+4,y+7,S3)}</g>`;
+  }
+  // Three tiny pebbles scattered
+  return `<g>${d(x+2,y+5,S2)}${d(x+5,y+4,S1)}${d(x+7,y+6,S3)}${d(x+3,y+7,S1)}</g>`;
+}
+
+/** Pixel-art water puddle on empty cell (10x10) */
+function puddleSvg(x: number, y: number): string {
+  const W1 = "#3b82f6"; // water blue
+  const W2 = "#60a5fa"; // light blue
+  const W3 = "#93c5fd"; // highlight
+  //    WW
+  //   WWWW
+  //   WWhW
+  //    WW
+  return `<g>${d(x+4,y+4,W1)}${d(x+5,y+4,W2)}${d(x+3,y+5,W1)}${d(x+4,y+5,W2)}${d(x+5,y+5,W1)}${d(x+6,y+5,W2)}${d(x+3,y+6,W2)}${d(x+4,y+6,W1)}${d(x+5,y+6,W3)}${d(x+6,y+6,W1)}${d(x+4,y+7,W2)}${d(x+5,y+7,W1)}</g>`;
+}
+
+/** Pixel-art weeds / grass tufts on empty cell (10x10) */
+function weedSvg(x: number, y: number, col: number, row: number): string {
+  const variant = cellHash(col + 4444, row + 5555) % 2;
+  const g1 = "#65a30d"; // olive green
+  const g2 = "#84cc16"; // lime
+  if (variant === 0) {
+    // Two small grass tufts
+    return `<g>${d(x+2,y+5,g1)}${d(x+3,y+4,g2)}${d(x+3,y+5,g1)}${d(x+6,y+5,g1)}${d(x+7,y+4,g2)}${d(x+7,y+5,g1)}</g>`;
+  }
+  // Three blades of grass
+  return `<g>${d(x+3,y+4,g2)}${d(x+3,y+5,g1)}${d(x+5,y+3,g2)}${d(x+5,y+4,g1)}${d(x+5,y+5,g1)}${d(x+7,y+5,g2)}${d(x+7,y+6,g1)}</g>`;
+}
+
+/** Pixel-art ladybug decoration (placed on top of lv3-4 plants) */
+function ladybugSvg(x: number, y: number): string {
+  const R = "#dc2626"; // red body
+  const B = "#1c1917"; // black spots/head
+  const W = "#ffffff"; // eye
+  //    B
+  //   RBR
+  //   RBR
+  //    B
+  return `<g>${d(x+7,y+1,B)}${d(x+6,y+2,R)}${d(x+7,y+2,B)}${d(x+8,y+2,R)}${d(x+6,y+3,R)}${d(x+7,y+3,B)}${d(x+8,y+3,R)}${d(x+7,y+4,B)}${d(x+8,y+1,W)}</g>`;
+}
+
+/** Pixel-art sunflower — special lv4 variant (10x10) */
+function sunflowerSvg(x: number, y: number): string {
+  const P = "#fbbf24"; // golden petal
+  const C = "#92400e"; // dark brown center
+  const G = "#22c55e"; // stem green
+  const g = "#4ade80"; // leaf green
+  //   P P P
+  //   pPCPp
+  //   P P P
+  //    gGg
+  //     G
+  //     G
+  return `<g>${d(x+2,y+0,P)}${d(x+4,y+0,P)}${d(x+6,y+0,P)}${d(x+2,y+1,P)}${d(x+3,y+1,P)}${d(x+4,y+1,C)}${d(x+5,y+1,P)}${d(x+6,y+1,P)}${d(x+2,y+2,P)}${d(x+4,y+2,P)}${d(x+6,y+2,P)}${d(x+3,y+3,g)}${d(x+4,y+3,G)}${d(x+5,y+3,g)}${d(x+4,y+4,G)}${d(x+4,y+5,G)}${d(x+4,y+6,G)}</g>`;
+}
+
 /** Pixel-art stump on empty cell (10x10) */
 function stumpSvg(x: number, y: number): string {
   const B = "#78350f"; // dark bark
@@ -138,6 +207,10 @@ function plantSvg(level: number, col: number, row: number, x: number, y: number)
           ? roundTreeSvg(x, y)
           : pineTreeSvg(x, y);
       }
+      // ~10% of remaining: sunflower
+      if (cellHash(col + 7777, row + 8888) % 100 < 12) {
+        return sunflowerSvg(x, y);
+      }
       // Full bloom: open flower with colored petals + center + stem
       //    p p
       //   ppcpp
@@ -228,6 +301,14 @@ export function buildGrowthLayer(
       );
     }
 
+    // 2b. Ladybug on ~10% of lv3-4 plants
+    if (level >= 3 && cellHash(col + 6161, row + 7272) % 100 < 10) {
+      const bugDelay = plantDelay + 0.3;
+      rects.push(
+        `<g style="opacity:0; transform-origin:${cx}px ${cy}px; animation: plant-appear 0.4s ease ${bugDelay.toFixed(2)}s forwards;">${ladybugSvg(x, y)}</g>`,
+      );
+    }
+
     // 3. Bloom wave pop
     const dist = Math.abs(col - timeline.bloomWaveCenterCol) + Math.abs(row - timeline.bloomWaveCenterRow);
     const bloomDelay = timeline.bloomWaveStartAbsS + dist * BLOOM_WAVE_SPEED;
@@ -255,6 +336,15 @@ export function buildGrowthLayer(
     } else if (roll < 15) {
       // ~5%: mushroom
       rects.push(`<g opacity="0.6">${mushroomSvg(x, y, cell.x, cell.y)}</g>`);
+    } else if (roll < 23) {
+      // ~8%: stones / pebbles
+      rects.push(`<g opacity="0.5">${stoneSvg(x, y, cell.x, cell.y)}</g>`);
+    } else if (roll < 28) {
+      // ~5%: water puddle
+      rects.push(`<g opacity="0.5">${puddleSvg(x, y)}</g>`);
+    } else if (roll < 38) {
+      // ~10%: weeds / grass
+      rects.push(`<g opacity="0.5">${weedSvg(x, y, cell.x, cell.y)}</g>`);
     }
   }
 

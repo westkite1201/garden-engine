@@ -5,7 +5,7 @@ export const springTheme: ThemePack = {
   label: "Spring Garden",
   palette: {
     bg: "#0d1117",
-    soil: "#161b22",        // GitHub dark empty cell (matches exactly)
+    soil: "#2a1f14",        // warm dark brown — visible as tilled earth
     level1: "#0e4429",      // GitHub dark low
     level2: "#006d32",      // GitHub dark medium-low
     level3: "#26a641",      // GitHub dark medium-high
