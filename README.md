@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src="assets/garden.svg" alt="My Garden" width="800"/>
+</p>
+
+
 # Garden Engine
 
 > 1년간의 커밋이 살아 있는 정원으로 피어납니다.
@@ -196,3 +202,5 @@ src/
 ## License
 
 MIT
+
+
