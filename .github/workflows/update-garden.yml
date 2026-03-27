@@ -2,8 +2,8 @@ name: Update Garden
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 매일 자정 (UTC)
-  workflow_dispatch: # 수동 실행
+    - cron: "0 0 * * *"   # 매일 UTC 자정 (한국시간 오전 9시)
+  workflow_dispatch:        # 수동 실행 버튼
 
 permissions:
   contents: write
@@ -18,9 +18,9 @@ jobs:
         uses: westkite1201/garden-engine@v1
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          # username: "" # 비워두면 토큰 소유자
-          # theme: spring
-          # output_path: assets/garden.svg
+          # username: ""              # 비워두면 토큰 소유자 본인
+          # theme: spring             # 테마 (현재 spring만 있음)
+          # output_path: assets/garden.svg  # 저장 경로
 
       - name: Commit & push
         run: |
