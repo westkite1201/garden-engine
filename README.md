@@ -199,6 +199,10 @@ src/
 | 2026-03-27 | README + GitHub Action + 정원 장식 추가 | [docs/pr/2026-03-27-add-readme-svg.md](docs/pr/2026-03-27-add-readme-svg.md) |
 | 2026-03-26 | Garden Engine MVP 구현 | [docs/pr/2026-03-26-garden-engine-mvp.md](docs/pr/2026-03-26-garden-engine-mvp.md) |
 
+## Inspired by
+
+[green-movement](https://github.com/SeoNaRu/green-movement) — 양이 잔디를 뜯어먹는 SVG 애니메이션에서 영감을 받아, 벌이 꽃을 피우는 성장 모델로 재해석했습니다.
+
 ## License
 
 MIT
