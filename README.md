@@ -237,6 +237,23 @@ with:
 | `theme` | X | `spring` | 정원 테마 |
 | `output_path` | X | `assets/garden.svg` | SVG 출력 경로 |
 
+## Release — v1 태그 등록
+
+이 프로젝트를 GitHub Action으로 배포하려면 **반드시 `v1` 태그를 생성**해야 합니다.
+사용자가 `uses: westkite1201/garden-engine@v1` 으로 참조하기 때문에 태그가 없으면 워크플로우가 실패합니다.
+
+```bash
+# 최초 태그 생성
+git tag v1
+git push origin v1
+
+# 이후 업데이트 시 태그를 최신 커밋으로 이동
+git tag -f v1
+git push origin v1 --force
+```
+
+새로운 major 버전을 릴리스할 때는 `v2` 태그를 만들고 README의 참조도 함께 업데이트하세요.
+
 ## Local Development
 
 ```bash
