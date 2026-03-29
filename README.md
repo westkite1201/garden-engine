@@ -29,30 +29,97 @@ GitHub GraphQL API  →  Contribution Grid  →  Simulation Engine  →  Animate
 
 ## Setup — GitHub Action (추천)
 
-자신의 프로필 README 레포에 워크플로우 파일 하나만 추가하면 매일 자동으로 정원이 업데이트됩니다.
+이 프로젝트는 **내 GitHub 프로필 README 레포**에 등록해서 씁니다.
+즉, 이 저장소를 포크하거나 수정하는 게 아니라, **내 프로필용 저장소**에 워크플로우를 추가하는 방식입니다.
 
-### 1. GitHub Token 발급
+### 어디에 등록하나요?
 
-[Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)에서 **`read:user`** scope가 포함된 토큰을 생성하세요.
+GitHub 프로필에 보이는 README는 아래 조건을 만족하는 특별한 저장소입니다.
 
-### 2. Secret 등록
+1. 저장소 이름이 **내 GitHub 아이디와 완전히 같아야 합니다**
+2. 저장소가 **Public** 이어야 합니다
+3. 루트에 `README.md` 가 있어야 합니다
 
-레포 → Settings → Secrets and variables → Actions → **New repository secret**
+예를 들어 GitHub 아이디가 `westkite1201` 이면 프로필 README 저장소 이름도 반드시 `westkite1201` 이어야 합니다.
+
+이미 이런 저장소가 있다면 그 저장소에 아래 설정을 추가하면 됩니다.
+없다면 먼저 만들어야 합니다.
+
+### 1. 프로필 README 저장소 만들기
+
+1. GitHub 우측 상단 `+` 버튼 클릭
+2. `New repository` 클릭
+3. `Repository name` 에 **내 GitHub 아이디와 같은 이름** 입력
+4. `Public` 선택
+5. `Add README` 켜기
+6. `Create repository` 클릭
+
+이 저장소가 곧 내 프로필에 노출되는 README 저장소입니다.
+
+### 2. GitHub Token 만들기
+
+이 액션은 GitHub GraphQL API로 내 contribution 데이터를 읽어와야 하므로 토큰이 필요합니다.
+
+경로:
+`GitHub 프로필 사진 → Settings → Developer settings → Personal access tokens`
+
+권장 방식:
+
+- 가능하면 **Fine-grained token**
+- 최소 권한 원칙으로 생성
+- 만약 동작 이슈가 있으면 **Tokens (classic)** 으로 다시 만들어 `read:user` scope를 주는 방식으로 대체
+
+빠르게 설정하려면 아래 기준으로 만들면 됩니다.
+
+#### Fine-grained token으로 만들 때
+
+1. `Fine-grained tokens` 클릭
+2. `Generate new token` 클릭
+3. Token name 예시: `garden-engine`
+4. Resource owner: 본인 계정 선택
+5. Expiration: 원하는 기간 선택
+6. Repository access: **Only select repositories**
+7. 내 프로필 README 저장소 하나만 선택
+8. Permissions는 읽기 중심으로 설정
+
+이 프로젝트는 contribution 조회가 핵심이라, 토큰이 너무 제한적이면 API 호출이 막힐 수 있습니다.
+그 경우 아래 classic token 방식이 가장 단순합니다.
+
+#### Classic token으로 만들 때
+
+1. `Tokens (classic)` 클릭
+2. `Generate new token (classic)` 클릭
+3. Note 예시: `garden-engine`
+4. Expiration 선택
+5. Scope에서 **`read:user`** 체크
+6. 토큰 생성 후 바로 복사
+
+### 3. Secret 등록
+
+이제 방금 만든 토큰을 **프로필 README 저장소**에 secret으로 넣습니다.
+
+경로:
+`프로필 README 저장소 → Settings → Secrets and variables → Actions → New repository secret`
+
+다음처럼 등록하세요.
 
 - Name: `GH_TOKEN`
-- Value: 위에서 만든 토큰
+- Secret: 방금 생성한 토큰 값
 
-### 3. 워크플로우 추가
+### 4. 워크플로우 파일 추가
 
-`.github/workflows/update-garden.yml` 파일을 생성하세요:
+프로필 README 저장소에 아래 파일을 추가하세요.
+
+파일 경로:
+`.github/workflows/update-garden.yml`
 
 ```yaml
 name: Update Garden
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 매일 자정 (UTC)
-  workflow_dispatch: # 수동 실행
+    - cron: "0 0 * * *" # 매일 00:00 UTC, 한국 시간 09:00
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -67,20 +134,28 @@ jobs:
         uses: westkite1201/garden-engine@v1
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          # username: ""          # 비워두면 토큰 소유자
-          # theme: spring         # 테마 선택
+          # username: ""                # 비우면 토큰 소유자 기준
+          # theme: spring               # 현재 spring 지원
           # output_path: assets/garden.svg
 
-      - name: Commit & push
+      - name: Commit and push garden
         run: |
           git config user.name "garden-bot"
           git config user.email "garden-bot@users.noreply.github.com"
           git add assets/garden.svg
-          git diff --staged --quiet || git commit -m "chore: update garden 🌱"
+          git diff --staged --quiet || git commit -m "chore: update garden"
           git push
 ```
 
-### 4. README에 삽입
+중요:
+
+- 이 파일은 **garden-engine 저장소가 아니라 내 프로필 README 저장소**에 넣어야 합니다
+- `uses: westkite1201/garden-engine@v1` 는 이 저장소의 GitHub Action을 가져다 쓰는 줄입니다
+- `output_path` 를 바꾸면 아래 README 이미지 경로도 같이 바꿔야 합니다
+
+### 5. README.md에 이미지 삽입
+
+이제 같은 프로필 README 저장소의 `README.md` 에 아래 마크업을 넣으세요.
 
 ```markdown
 <p align="center">
@@ -88,7 +163,70 @@ jobs:
 </p>
 ```
 
-완료! Actions 탭에서 **Run workflow**를 눌러 바로 테스트할 수 있습니다.
+보통은 README 상단이나 소개 문구 바로 아래에 넣는 게 가장 자연스럽습니다.
+
+### 6. 처음 한 번 수동 실행해서 등록 확인
+
+자동 스케줄을 기다리지 말고 먼저 한 번 직접 실행해서 등록이 맞는지 확인하는 게 좋습니다.
+
+1. 프로필 README 저장소로 이동
+2. `Actions` 탭 클릭
+3. `Update Garden` 워크플로우 선택
+4. `Run workflow` 클릭
+5. 실행이 끝나면 저장소에 `assets/garden.svg` 파일이 생겼는지 확인
+6. `README.md` 에 정원 SVG가 보이는지 확인
+7. 내 GitHub 프로필 페이지로 가서 실제로 노출되는지 확인
+
+여기까지 보이면 등록이 끝난 것입니다.
+
+### 바로 확인할 체크리스트
+
+- 프로필 README 저장소 이름이 내 GitHub 아이디와 정확히 같은가
+- 저장소가 Public 인가
+- `README.md` 가 루트에 있는가
+- secret 이름을 `GH_TOKEN` 으로 넣었는가
+- 워크플로우가 내 프로필 README 저장소에 들어갔는가
+- README의 이미지 경로가 `assets/garden.svg` 와 일치하는가
+- Actions 실행 후 실제로 `assets/garden.svg` 가 커밋되었는가
+
+### 자주 막히는 문제
+
+#### 1. Actions는 성공했는데 프로필에 안 보여요
+
+대부분 아래 둘 중 하나입니다.
+
+- 프로필 README 저장소 이름이 GitHub 아이디와 다름
+- `README.md` 에 이미지 태그를 아직 안 넣었음
+
+#### 2. `assets/garden.svg` 파일은 생겼는데 이미지가 안 보여요
+
+보통 README에 적은 경로와 실제 출력 경로가 다릅니다.
+
+- 워크플로우 `output_path`
+- README의 `<img src="...">`
+
+이 둘이 정확히 같아야 합니다.
+
+#### 3. 401 / Unauthorized 에러가 나요
+
+토큰 문제입니다.
+
+- 토큰이 만료됨
+- secret에 잘못 붙여넣음
+- 권한이 부족함
+
+이 경우 토큰을 새로 만들어 `GH_TOKEN` secret 값을 교체한 뒤 다시 실행하세요.
+
+#### 4. 특정 사용자 기준으로 만들고 싶어요
+
+기본값은 토큰 소유자입니다.
+다른 사용자를 조회하려면 워크플로우에서 `username` 을 명시하세요.
+
+```yaml
+with:
+  github_token: ${{ secrets.GH_TOKEN }}
+  username: your-github-id
+```
 
 ### Action Inputs
 
@@ -206,5 +344,4 @@ src/
 ## License
 
 MIT
-
 
