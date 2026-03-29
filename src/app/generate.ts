@@ -12,7 +12,7 @@ import { buildActorLayer } from "../svg/layers/actorLayer.js";
 import { buildEffectLayer } from "../svg/layers/effectLayer.js";
 import { buildBorderLayer } from "../svg/layers/borderLayer.js";
 import { composeSvg } from "../svg/render/composeSvg.js";
-import { writeFileSync } from "fs";
+import { mkdirSync, writeFileSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import { README_TARGET_WIDTH } from "../config/constants.js";
@@ -29,6 +29,7 @@ function resolveOutputPath(): string {
 
 export async function generate(themeId: string): Promise<void> {
   const outPath = resolveOutputPath();
+  mkdirSync(dirname(outPath), { recursive: true });
   const username = process.env.GITHUB_USERNAME?.trim() || undefined;
   console.log(`Fetching contribution data${username ? ` for ${username}` : ""}...`);
 
