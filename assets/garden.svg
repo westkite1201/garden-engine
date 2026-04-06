@@ -499,6 +499,7 @@
     <rect x="624" y="72" width="10" height="10" rx="2" fill="#2a1f14"/>
     <rect x="624" y="84" width="10" height="10" rx="2" fill="#2a1f14"/>
     <rect x="636" y="12" width="10" height="10" rx="2" fill="#2a1f14"/>
+    <rect x="636" y="24" width="10" height="10" rx="2" fill="#2a1f14"/>
   </g>
   <g id="growth-layer">
     <rect x="192" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 8.25s forwards;"/>
