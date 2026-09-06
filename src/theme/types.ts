@@ -25,6 +25,10 @@ export type ActorDef = {
   widthPx: number;
   viewBoxW: number;
   viewBoxH: number;
+  /** Native sprite direction; when set, mirror to follow horizontal travel. */
+  facing?: "left" | "right";
+  /** Sprite animation styles, included once per garden. */
+  css?: string;
 };
 
 export type IntroEffect = "sunrise" | "sparkle" | "watering" | "none";
@@ -33,11 +37,12 @@ export type OutroEffect = "full-bloom" | "petal-wave" | "fireflies" | "none";
 export type EffectDef = {
   intro: IntroEffect;
   outro: OutroEffect;
+  watering?: "sparkle";
 };
 
 export type ThemeRules = {
   dwellByLevel?: (level: number) => number;
-  actorCount?: (activeCells: number) => number;
+  actorCount?: (activeCells: number, totalContributions: number) => number;
   cellTime?: number;
 };
 

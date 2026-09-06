@@ -8,7 +8,6 @@ import {
   BLOOM_POP_DURATION,
   ACTOR_FADE_OUT,
 } from "../config/defaults.js";
-import { getContributionLevel } from "../grid/contribution.js";
 
 export function buildTimeline(
   ctx: GridContext,
@@ -26,16 +25,24 @@ export function buildTimeline(
   // Growth events: when each cell starts growing
   const growthStartAbsS = new Map<string, number>();
   const growthLevel = new Map<string, number>();
+  const wateringIntervals: TimelineResult["wateringIntervals"] = [];
 
   for (const evt of sim.growthEvents) {
-    const triggerAbsS = evt.triggerTick * cellTime;
+    // Movement also starts after the fade-in; keep watering and growth in sync.
+    const triggerAbsS = evt.triggerTick * cellTime + ACTOR_FADE_IN;
+    wateringIntervals.push({
+      cellKey: evt.cellKey,
+      actorIndex: evt.actorIndex,
+      startAbsS: evt.wateringStartTick * cellTime + ACTOR_FADE_IN,
+      endAbsS: triggerAbsS,
+    });
     growthStartAbsS.set(evt.cellKey, triggerAbsS + GROWTH_DELAY_AFTER_WATER);
     growthLevel.set(evt.cellKey, evt.toLevel);
   }
 
   // Find the latest growth event to compute bloom wave start
   let latestGrowthEnd = 0;
-  for (const [key, startS] of growthStartAbsS) {
+  for (const startS of growthStartAbsS.values()) {
     const endS = startS + GROWTH_DURATION;
     if (endS > latestGrowthEnd) latestGrowthEnd = endS;
   }
@@ -71,6 +78,7 @@ export function buildTimeline(
     moveStartAbsS,
     growthStartAbsS,
     growthLevel,
+    wateringIntervals,
     bloomWaveStartAbsS,
     bloomWaveCenterCol,
     bloomWaveCenterRow,

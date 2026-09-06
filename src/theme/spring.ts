@@ -24,12 +24,23 @@ export const springTheme: ThemePack = {
     widthPx: 10,
     viewBoxW: 10,
     viewBoxH: 10,
+    facing: "right",
+    css: `@keyframes bee-wing-flutter {
+    0%, 100% { transform: scaleY(1) rotate(-3deg); }
+    50% { transform: scaleY(0.35) rotate(3deg); }
+  }
+  .bee-wings {
+    transform-origin: 5px 3px;
+    animation: bee-wing-flutter 0.18s ease-in-out var(--wing-phase, 0s) infinite;
+  }`,
     svg: `<!-- Pixel-art bee (10x10 grid, 1px = 1 dot) -->
       <!-- Wing (top) -->
-      <rect x="2" y="1" width="2" height="1" fill="#fff" opacity="0.6"/>
-      <rect x="6" y="1" width="2" height="1" fill="#fff" opacity="0.6"/>
-      <rect x="1" y="2" width="3" height="1" fill="#fff" opacity="0.45"/>
-      <rect x="6" y="2" width="3" height="1" fill="#fff" opacity="0.45"/>
+      <g class="bee-wings">
+        <rect x="2" y="1" width="2" height="1" fill="#fff" opacity="0.6"/>
+        <rect x="6" y="1" width="2" height="1" fill="#fff" opacity="0.6"/>
+        <rect x="1" y="2" width="3" height="1" fill="#fff" opacity="0.45"/>
+        <rect x="6" y="2" width="3" height="1" fill="#fff" opacity="0.45"/>
+      </g>
       <!-- Body (yellow + black stripes) -->
       <rect x="3" y="3" width="4" height="1" fill="#f6c541"/>
       <rect x="3" y="4" width="4" height="1" fill="#333"/>
@@ -46,14 +57,23 @@ export const springTheme: ThemePack = {
   effects: {
     intro: "none",
     outro: "full-bloom",
+    watering: "sparkle",
   },
   rules: {
     dwellByLevel: (level: number) => 0.8 + level * 0.2,
-    actorCount: (activeCells: number) => {
+    actorCount: (activeCells: number, totalContributions: number) => {
       if (activeCells <= 0) return 0;
-      if (activeCells < 30) return 1;
-      if (activeCells < 100) return 2;
-      return 3;
+
+      const activityCount = totalContributions < 100 ? 1
+        : totalContributions < 300 ? 2
+        : totalContributions < 600 ? 3
+        : totalContributions < 1000 ? 4
+        : totalContributions < 2000 ? 6
+        : totalContributions < 4000 ? 8
+        : 12;
+      // Add one bee per 30 active days, then apply the swarm/flower limits.
+      const workloadCount = Math.ceil(activeCells / 30);
+      return Math.min(12, activeCells, Math.max(activityCount, workloadCount));
     },
     cellTime: 0.35,
   },

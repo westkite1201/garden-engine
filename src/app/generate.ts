@@ -47,6 +47,7 @@ export async function generate(themeId: string): Promise<void> {
   console.log(`Theme: ${theme.label}`);
 
   const ctx = buildContext(grid, theme);
+  console.log(`Contributions: ${ctx.totalContributions} across ${ctx.activeCells} active days`);
   console.log(`Actors: ${ctx.actorCount}`);
 
   const plan = planTargets(ctx);

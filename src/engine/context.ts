@@ -21,8 +21,16 @@ export function buildContext(grid: GridCell[], theme: ThemePack): GridContext {
   for (const c of grid) initialCountByKey.set(`${c.x},${c.y}`, c.count);
 
   const activeCells = grid.filter((c) => c.count > 0).length;
+  const totalContributions = grid.reduce((sum, cell) => sum + Math.max(0, cell.count), 0);
   const actorCountFn = theme.rules?.actorCount;
-  const actorCount = actorCountFn ? actorCountFn(activeCells) : Math.min(3, Math.max(1, Math.floor(activeCells / 50)));
+  const requestedActors = actorCountFn
+    ? actorCountFn(activeCells, totalContributions)
+    : Math.min(3, Math.ceil(activeCells / 50));
+  if (!Number.isFinite(requestedActors)) {
+    throw new Error("Theme actorCount must return a finite number");
+  }
+  const actorCount = activeCells === 0 ? 0
+    : Math.min(activeCells, Math.max(1, Math.floor(requestedActors)));
 
   const inBounds = (col: number, row: number) =>
     col >= 0 && col <= maxX && row >= 0 && row <= maxY;
@@ -49,6 +57,8 @@ export function buildContext(grid: GridCell[], theme: ThemePack): GridContext {
     totalHeight,
     byKey,
     initialCountByKey,
+    activeCells,
+    totalContributions,
     actorCount,
     inBounds,
     dirs4,
