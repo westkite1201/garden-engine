@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate garden SVG
-        uses: westkite1201/garden-engine@v1
+        uses: ./
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           # username: ""              # 비워두면 토큰 소유자 본인

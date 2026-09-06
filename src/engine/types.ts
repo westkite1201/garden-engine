@@ -11,6 +11,8 @@ export type GridContext = {
   totalHeight: number;
   byKey: Map<string, GridCell>;
   initialCountByKey: Map<string, number>;
+  activeCells: number;
+  totalContributions: number;
   actorCount: number;
   inBounds: (col: number, row: number) => boolean;
   dirs4: [number, number][];
@@ -30,6 +32,7 @@ export type ActorState = {
 export type GrowthEvent = {
   cellKey: string;
   toLevel: number;
+  wateringStartTick: number;
   triggerTick: number;
   actorIndex: number;
 };
@@ -54,6 +57,12 @@ export type TimelineResult = {
   moveStartAbsS: number[];
   growthStartAbsS: Map<string, number>;
   growthLevel: Map<string, number>;
+  wateringIntervals: {
+    cellKey: string;
+    actorIndex: number;
+    startAbsS: number;
+    endAbsS: number;
+  }[];
   bloomWaveStartAbsS: number;
   bloomWaveCenterCol: number;
   bloomWaveCenterRow: number;
