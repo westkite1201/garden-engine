@@ -44,274 +44,288 @@
   }
   @keyframes actor-move-0 {
     0.00000% { transform: translate(17px, 77px); }
-    3.33333% { transform: translate(17px, 77px); }
-    4.00000% { transform: translate(29px, 77px); }
-    4.66667% { transform: translate(41px, 77px); }
-    5.33333% { transform: translate(53px, 77px); }
-    6.00000% { transform: translate(65px, 77px); }
-    6.66667% { transform: translate(77px, 77px); }
-    7.33333% { transform: translate(89px, 77px); }
-    8.00000% { transform: translate(101px, 77px); }
-    8.66667% { transform: translate(113px, 77px); }
-    9.33333% { transform: translate(125px, 77px); }
-    10.00000% { transform: translate(137px, 77px); }
-    10.66667% { transform: translate(149px, 77px); }
-    11.33333% { transform: translate(161px, 77px); }
-    12.00000% { transform: translate(173px, 77px); }
-    12.66667% { transform: translate(185px, 77px); }
-    13.33333% { transform: translate(197px, 77px); }
-    14.00000% { transform: translate(209px, 77px); }
-    14.66667% { transform: translate(221px, 77px); }
-    15.33333% { transform: translate(233px, 77px); }
-    16.00000% { transform: translate(245px, 77px); }
-    16.66667% { transform: translate(257px, 77px); }
-    20.00000% { transform: translate(257px, 77px); }
-    20.66667% { transform: translate(269px, 77px); }
-    24.00000% { transform: translate(269px, 77px); }
-    24.66667% { transform: translate(281px, 77px); }
-    25.33333% { transform: translate(281px, 89px); }
-    28.66667% { transform: translate(281px, 89px); }
-    29.33333% { transform: translate(281px, 77px); }
-    30.00000% { transform: translate(281px, 65px); }
-    30.66667% { transform: translate(281px, 53px); }
-    31.33333% { transform: translate(281px, 41px); }
-    34.66667% { transform: translate(281px, 41px); }
-    35.33333% { transform: translate(281px, 29px); }
-    36.00000% { transform: translate(293px, 29px); }
-    36.66667% { transform: translate(293px, 17px); }
-    40.00000% { transform: translate(293px, 17px); }
-    40.66667% { transform: translate(305px, 17px); }
-    41.33333% { transform: translate(317px, 17px); }
-    42.00000% { transform: translate(329px, 17px); }
-    45.33333% { transform: translate(329px, 17px); }
-    46.00000% { transform: translate(329px, 29px); }
-    48.66667% { transform: translate(329px, 29px); }
-    49.33333% { transform: translate(341px, 29px); }
-    50.00000% { transform: translate(353px, 29px); }
-    50.66667% { transform: translate(365px, 29px); }
-    51.33333% { transform: translate(377px, 29px); }
-    52.00000% { transform: translate(389px, 29px); }
-    52.66667% { transform: translate(401px, 29px); }
-    53.33333% { transform: translate(413px, 29px); }
-    54.00000% { transform: translate(425px, 29px); }
-    54.66667% { transform: translate(437px, 29px); }
-    55.33333% { transform: translate(449px, 29px); }
-    56.00000% { transform: translate(461px, 29px); }
-    56.66667% { transform: translate(461px, 17px); }
-    60.00000% { transform: translate(461px, 17px); }
-    60.66667% { transform: translate(461px, 29px); }
-    61.33333% { transform: translate(473px, 29px); }
-    62.00000% { transform: translate(473px, 41px); }
-    65.33333% { transform: translate(473px, 41px); }
-    66.00000% { transform: translate(473px, 53px); }
-    66.66667% { transform: translate(461px, 53px); }
-    67.33333% { transform: translate(461px, 65px); }
-    70.66667% { transform: translate(461px, 65px); }
-    71.33333% { transform: translate(461px, 77px); }
-    72.00000% { transform: translate(461px, 89px); }
-    75.33333% { transform: translate(461px, 89px); }
-    76.00000% { transform: translate(449px, 89px); }
-    79.33333% { transform: translate(449px, 89px); }
-    80.00000% { transform: translate(461px, 89px); }
-    80.66667% { transform: translate(473px, 89px); }
-    84.00000% { transform: translate(473px, 89px); }
-    84.66667% { transform: translate(485px, 89px); }
-    85.33333% { transform: translate(497px, 89px); }
-    86.00000% { transform: translate(509px, 89px); }
-    86.66667% { transform: translate(521px, 89px); }
-    87.33333% { transform: translate(533px, 89px); }
-    88.00000% { transform: translate(545px, 89px); }
-    90.66667% { transform: translate(545px, 89px); }
-    91.33333% { transform: translate(557px, 89px); }
-    92.00000% { transform: translate(569px, 89px); }
-    92.66667% { transform: translate(581px, 89px); }
-    95.33333% { transform: translate(581px, 89px); }
-    96.00000% { transform: translate(581px, 77px); }
-    96.66667% { transform: translate(593px, 77px); }
-    97.33333% { transform: translate(593px, 65px); }
-    100.00000% { transform: translate(593px, 65px); }
+    3.22581% { transform: translate(17px, 77px); }
+    3.87097% { transform: translate(29px, 77px); }
+    4.51613% { transform: translate(41px, 77px); }
+    5.16129% { transform: translate(53px, 77px); }
+    5.80645% { transform: translate(65px, 77px); }
+    6.45161% { transform: translate(77px, 77px); }
+    7.09677% { transform: translate(89px, 77px); }
+    7.74194% { transform: translate(101px, 77px); }
+    8.38710% { transform: translate(113px, 77px); }
+    9.03226% { transform: translate(125px, 77px); }
+    9.67742% { transform: translate(137px, 77px); }
+    10.32258% { transform: translate(149px, 77px); }
+    10.96774% { transform: translate(161px, 77px); }
+    11.61290% { transform: translate(173px, 77px); }
+    12.25806% { transform: translate(185px, 77px); }
+    12.90323% { transform: translate(197px, 77px); }
+    13.54839% { transform: translate(209px, 77px); }
+    14.19355% { transform: translate(221px, 77px); }
+    14.83871% { transform: translate(233px, 77px); }
+    15.48387% { transform: translate(245px, 77px); }
+    16.12903% { transform: translate(257px, 77px); }
+    19.35484% { transform: translate(257px, 77px); }
+    20.00000% { transform: translate(269px, 77px); }
+    23.22581% { transform: translate(269px, 77px); }
+    23.87097% { transform: translate(281px, 77px); }
+    24.51613% { transform: translate(281px, 89px); }
+    27.74194% { transform: translate(281px, 89px); }
+    28.38710% { transform: translate(281px, 77px); }
+    29.03226% { transform: translate(281px, 65px); }
+    29.67742% { transform: translate(281px, 53px); }
+    30.32258% { transform: translate(281px, 41px); }
+    33.54839% { transform: translate(281px, 41px); }
+    34.19355% { transform: translate(281px, 29px); }
+    34.83871% { transform: translate(293px, 29px); }
+    35.48387% { transform: translate(293px, 17px); }
+    38.70968% { transform: translate(293px, 17px); }
+    39.35484% { transform: translate(305px, 17px); }
+    40.00000% { transform: translate(317px, 17px); }
+    40.64516% { transform: translate(329px, 17px); }
+    43.87097% { transform: translate(329px, 17px); }
+    44.51613% { transform: translate(329px, 29px); }
+    47.09677% { transform: translate(329px, 29px); }
+    47.74194% { transform: translate(341px, 29px); }
+    48.38710% { transform: translate(353px, 29px); }
+    49.03226% { transform: translate(365px, 29px); }
+    49.67742% { transform: translate(377px, 29px); }
+    50.32258% { transform: translate(389px, 29px); }
+    50.96774% { transform: translate(401px, 29px); }
+    51.61290% { transform: translate(413px, 29px); }
+    52.25806% { transform: translate(425px, 29px); }
+    52.90323% { transform: translate(437px, 29px); }
+    53.54839% { transform: translate(449px, 29px); }
+    54.19355% { transform: translate(461px, 29px); }
+    54.83871% { transform: translate(461px, 17px); }
+    58.06452% { transform: translate(461px, 17px); }
+    58.70968% { transform: translate(461px, 29px); }
+    59.35484% { transform: translate(473px, 29px); }
+    60.00000% { transform: translate(473px, 41px); }
+    63.22581% { transform: translate(473px, 41px); }
+    63.87097% { transform: translate(473px, 53px); }
+    64.51613% { transform: translate(461px, 53px); }
+    65.16129% { transform: translate(461px, 65px); }
+    68.38710% { transform: translate(461px, 65px); }
+    69.03226% { transform: translate(461px, 77px); }
+    69.67742% { transform: translate(461px, 89px); }
+    72.90323% { transform: translate(461px, 89px); }
+    73.54839% { transform: translate(449px, 89px); }
+    76.77419% { transform: translate(449px, 89px); }
+    77.41935% { transform: translate(461px, 89px); }
+    78.06452% { transform: translate(473px, 89px); }
+    81.29032% { transform: translate(473px, 89px); }
+    81.93548% { transform: translate(485px, 89px); }
+    82.58065% { transform: translate(497px, 89px); }
+    83.22581% { transform: translate(509px, 89px); }
+    83.87097% { transform: translate(521px, 89px); }
+    84.51613% { transform: translate(533px, 89px); }
+    85.16129% { transform: translate(545px, 89px); }
+    87.74194% { transform: translate(545px, 89px); }
+    88.38710% { transform: translate(545px, 77px); }
+    89.03226% { transform: translate(557px, 77px); }
+    89.67742% { transform: translate(557px, 65px); }
+    90.32258% { transform: translate(569px, 65px); }
+    90.96774% { transform: translate(569px, 53px); }
+    94.19355% { transform: translate(569px, 53px); }
+    94.83871% { transform: translate(581px, 53px); }
+    95.48387% { transform: translate(593px, 53px); }
+    96.12903% { transform: translate(605px, 53px); }
+    96.77419% { transform: translate(617px, 53px); }
+    97.41935% { transform: translate(617px, 65px); }
+    100.00000% { transform: translate(617px, 65px); }
   }
   @keyframes actor-fade-0 {
     0% { opacity: 0; }
     0.00% { opacity: 0; }
-    0.48% { opacity: 1; }
-    96.94% { opacity: 1; }
-    97.42% { opacity: 0; }
+    0.47% { opacity: 1; }
+    97.04% { opacity: 1; }
+    97.51% { opacity: 0; }
     100% { opacity: 0; }
   }
   @keyframes actor-facing-0 {
     0% { transform: scaleX(1); }
-    66.00000% { transform: scaleX(-1); }
-    79.33333% { transform: scaleX(1); }
+    63.87097% { transform: scaleX(-1); }
+    76.77419% { transform: scaleX(1); }
     100% { transform: scaleX(1); }
   }
   @keyframes actor-move-1 {
     0.00000% { transform: translate(461px, 29px); }
-    3.37838% { transform: translate(461px, 29px); }
-    4.05405% { transform: translate(449px, 29px); }
-    4.72973% { transform: translate(437px, 29px); }
-    5.40541% { transform: translate(425px, 29px); }
-    6.08108% { transform: translate(413px, 29px); }
-    6.75676% { transform: translate(413px, 41px); }
-    10.13514% { transform: translate(413px, 41px); }
-    10.81081% { transform: translate(413px, 53px); }
-    14.18919% { transform: translate(413px, 53px); }
-    14.86486% { transform: translate(401px, 53px); }
-    15.54054% { transform: translate(389px, 53px); }
-    16.21622% { transform: translate(377px, 53px); }
-    19.59459% { transform: translate(377px, 53px); }
-    20.27027% { transform: translate(377px, 65px); }
-    23.64865% { transform: translate(377px, 65px); }
-    24.32432% { transform: translate(377px, 77px); }
-    27.70270% { transform: translate(377px, 77px); }
-    28.37838% { transform: translate(365px, 77px); }
-    29.05405% { transform: translate(353px, 77px); }
-    32.43243% { transform: translate(353px, 77px); }
-    33.10811% { transform: translate(353px, 65px); }
-    36.48649% { transform: translate(353px, 65px); }
-    37.16216% { transform: translate(341px, 65px); }
-    37.83784% { transform: translate(329px, 65px); }
-    38.51351% { transform: translate(329px, 53px); }
-    41.89189% { transform: translate(329px, 53px); }
-    42.56757% { transform: translate(329px, 41px); }
-    45.94595% { transform: translate(329px, 41px); }
-    46.62162% { transform: translate(341px, 41px); }
-    47.29730% { transform: translate(353px, 41px); }
-    47.97297% { transform: translate(353px, 29px); }
-    48.64865% { transform: translate(365px, 29px); }
-    49.32432% { transform: translate(365px, 17px); }
-    52.70270% { transform: translate(365px, 17px); }
-    53.37838% { transform: translate(377px, 17px); }
-    54.05405% { transform: translate(389px, 17px); }
-    54.72973% { transform: translate(401px, 17px); }
-    55.40541% { transform: translate(413px, 17px); }
-    56.08108% { transform: translate(425px, 17px); }
-    56.75676% { transform: translate(437px, 17px); }
-    57.43243% { transform: translate(449px, 17px); }
-    58.10811% { transform: translate(461px, 17px); }
-    58.78378% { transform: translate(473px, 17px); }
-    59.45946% { transform: translate(473px, 29px); }
-    62.83784% { transform: translate(473px, 29px); }
-    63.51351% { transform: translate(473px, 41px); }
-    64.18919% { transform: translate(473px, 53px); }
-    67.56757% { transform: translate(473px, 53px); }
-    68.24324% { transform: translate(485px, 53px); }
-    68.91892% { transform: translate(485px, 65px); }
-    72.29730% { transform: translate(485px, 65px); }
-    72.97297% { transform: translate(485px, 77px); }
-    75.67568% { transform: translate(485px, 77px); }
-    76.35135% { transform: translate(485px, 89px); }
-    79.72973% { transform: translate(485px, 89px); }
-    80.40541% { transform: translate(497px, 89px); }
-    81.08108% { transform: translate(509px, 89px); }
-    81.75676% { transform: translate(521px, 89px); }
-    82.43243% { transform: translate(521px, 77px); }
-    85.81081% { transform: translate(521px, 77px); }
-    86.48649% { transform: translate(533px, 77px); }
-    87.16216% { transform: translate(545px, 77px); }
-    87.83784% { transform: translate(557px, 77px); }
-    90.54054% { transform: translate(557px, 77px); }
-    91.21622% { transform: translate(569px, 77px); }
-    91.89189% { transform: translate(581px, 77px); }
-    92.56757% { transform: translate(581px, 65px); }
-    95.27027% { transform: translate(581px, 65px); }
-    95.94595% { transform: translate(593px, 65px); }
-    96.62162% { transform: translate(605px, 65px); }
-    97.29730% { transform: translate(617px, 65px); }
-    100.00000% { transform: translate(617px, 65px); }
+    3.14465% { transform: translate(461px, 29px); }
+    3.77358% { transform: translate(449px, 29px); }
+    4.40252% { transform: translate(437px, 29px); }
+    5.03145% { transform: translate(425px, 29px); }
+    5.66038% { transform: translate(413px, 29px); }
+    6.28931% { transform: translate(413px, 41px); }
+    9.43396% { transform: translate(413px, 41px); }
+    10.06289% { transform: translate(413px, 53px); }
+    13.20755% { transform: translate(413px, 53px); }
+    13.83648% { transform: translate(401px, 53px); }
+    14.46541% { transform: translate(389px, 53px); }
+    15.09434% { transform: translate(377px, 53px); }
+    18.23899% { transform: translate(377px, 53px); }
+    18.86792% { transform: translate(377px, 65px); }
+    22.01258% { transform: translate(377px, 65px); }
+    22.64151% { transform: translate(377px, 77px); }
+    25.78616% { transform: translate(377px, 77px); }
+    26.41509% { transform: translate(365px, 77px); }
+    27.04403% { transform: translate(353px, 77px); }
+    30.18868% { transform: translate(353px, 77px); }
+    30.81761% { transform: translate(353px, 65px); }
+    33.96226% { transform: translate(353px, 65px); }
+    34.59119% { transform: translate(341px, 65px); }
+    35.22013% { transform: translate(329px, 65px); }
+    35.84906% { transform: translate(329px, 53px); }
+    38.99371% { transform: translate(329px, 53px); }
+    39.62264% { transform: translate(329px, 41px); }
+    42.76730% { transform: translate(329px, 41px); }
+    43.39623% { transform: translate(341px, 41px); }
+    44.02516% { transform: translate(353px, 41px); }
+    44.65409% { transform: translate(353px, 29px); }
+    45.28302% { transform: translate(365px, 29px); }
+    45.91195% { transform: translate(365px, 17px); }
+    49.05660% { transform: translate(365px, 17px); }
+    49.68553% { transform: translate(377px, 17px); }
+    50.31447% { transform: translate(389px, 17px); }
+    50.94340% { transform: translate(401px, 17px); }
+    51.57233% { transform: translate(413px, 17px); }
+    52.20126% { transform: translate(425px, 17px); }
+    52.83019% { transform: translate(437px, 17px); }
+    53.45912% { transform: translate(449px, 17px); }
+    54.08805% { transform: translate(461px, 17px); }
+    54.71698% { transform: translate(473px, 17px); }
+    55.34591% { transform: translate(473px, 29px); }
+    58.49057% { transform: translate(473px, 29px); }
+    59.11950% { transform: translate(473px, 41px); }
+    59.74843% { transform: translate(473px, 53px); }
+    62.89308% { transform: translate(473px, 53px); }
+    63.52201% { transform: translate(485px, 53px); }
+    64.15094% { transform: translate(485px, 65px); }
+    67.29560% { transform: translate(485px, 65px); }
+    67.92453% { transform: translate(485px, 77px); }
+    70.44025% { transform: translate(485px, 77px); }
+    71.06918% { transform: translate(485px, 89px); }
+    74.21384% { transform: translate(485px, 89px); }
+    74.84277% { transform: translate(497px, 89px); }
+    77.98742% { transform: translate(497px, 89px); }
+    78.61635% { transform: translate(509px, 89px); }
+    79.24528% { transform: translate(521px, 89px); }
+    79.87421% { transform: translate(533px, 89px); }
+    80.50314% { transform: translate(545px, 89px); }
+    81.13208% { transform: translate(557px, 89px); }
+    81.76101% { transform: translate(557px, 77px); }
+    84.27673% { transform: translate(557px, 77px); }
+    84.90566% { transform: translate(569px, 77px); }
+    85.53459% { transform: translate(581px, 77px); }
+    86.16352% { transform: translate(581px, 65px); }
+    88.67925% { transform: translate(581px, 65px); }
+    89.30818% { transform: translate(593px, 65px); }
+    89.93711% { transform: translate(593px, 53px); }
+    92.45283% { transform: translate(593px, 53px); }
+    93.08176% { transform: translate(605px, 53px); }
+    93.71069% { transform: translate(617px, 53px); }
+    94.33962% { transform: translate(617px, 41px); }
+    94.96855% { transform: translate(629px, 41px); }
+    95.59748% { transform: translate(629px, 29px); }
+    96.22642% { transform: translate(641px, 29px); }
+    96.85535% { transform: translate(641px, 17px); }
+    100.00000% { transform: translate(641px, 17px); }
   }
   @keyframes actor-fade-1 {
     0% { opacity: 0; }
-    1.13% { opacity: 0; }
-    1.61% { opacity: 1; }
-    97.42% { opacity: 1; }
-    97.91% { opacity: 0; }
+    1.09% { opacity: 0; }
+    1.56% { opacity: 1; }
+    97.51% { opacity: 1; }
+    97.98% { opacity: 0; }
     100% { opacity: 0; }
   }
   @keyframes actor-facing-1 {
     0% { transform: scaleX(-1); }
-    45.94595% { transform: scaleX(1); }
+    42.76730% { transform: scaleX(1); }
     100% { transform: scaleX(1); }
   }
   @keyframes actor-move-2 {
-    0.00000% { transform: translate(521px, 41px); }
-    3.31126% { transform: translate(521px, 41px); }
-    3.97351% { transform: translate(509px, 41px); }
-    7.28477% { transform: translate(509px, 41px); }
-    7.94702% { transform: translate(509px, 29px); }
-    11.25828% { transform: translate(509px, 29px); }
-    11.92053% { transform: translate(497px, 29px); }
-    15.23179% { transform: translate(497px, 29px); }
-    15.89404% { transform: translate(497px, 17px); }
-    19.20530% { transform: translate(497px, 17px); }
-    19.86755% { transform: translate(509px, 17px); }
-    23.17881% { transform: translate(509px, 17px); }
-    23.84106% { transform: translate(521px, 17px); }
-    24.50331% { transform: translate(521px, 29px); }
-    27.81457% { transform: translate(521px, 29px); }
-    28.47682% { transform: translate(533px, 29px); }
-    31.12583% { transform: translate(533px, 29px); }
-    31.78808% { transform: translate(545px, 29px); }
-    34.43709% { transform: translate(545px, 29px); }
-    35.09934% { transform: translate(557px, 29px); }
-    35.76159% { transform: translate(557px, 17px); }
-    39.07285% { transform: translate(557px, 17px); }
-    39.73510% { transform: translate(557px, 29px); }
-    40.39735% { transform: translate(557px, 41px); }
-    43.04636% { transform: translate(557px, 41px); }
-    43.70861% { transform: translate(557px, 53px); }
-    47.01987% { transform: translate(557px, 53px); }
-    47.68212% { transform: translate(557px, 65px); }
-    50.99338% { transform: translate(557px, 65px); }
-    51.65563% { transform: translate(545px, 65px); }
-    54.30464% { transform: translate(545px, 65px); }
-    54.96689% { transform: translate(533px, 65px); }
-    55.62914% { transform: translate(533px, 53px); }
-    58.27815% { transform: translate(533px, 53px); }
-    58.94040% { transform: translate(521px, 53px); }
-    61.58940% { transform: translate(521px, 53px); }
-    62.25166% { transform: translate(509px, 53px); }
-    65.56291% { transform: translate(509px, 53px); }
-    66.22517% { transform: translate(509px, 65px); }
-    69.53642% { transform: translate(509px, 65px); }
-    70.19868% { transform: translate(509px, 77px); }
-    70.86093% { transform: translate(509px, 89px); }
-    74.17219% { transform: translate(509px, 89px); }
-    74.83444% { transform: translate(497px, 89px); }
-    78.14570% { transform: translate(497px, 89px); }
-    78.80795% { transform: translate(509px, 89px); }
-    79.47020% { transform: translate(521px, 89px); }
-    80.13245% { transform: translate(533px, 89px); }
-    80.79470% { transform: translate(533px, 77px); }
-    84.10596% { transform: translate(533px, 77px); }
-    84.76821% { transform: translate(545px, 77px); }
-    85.43046% { transform: translate(557px, 77px); }
-    86.09272% { transform: translate(557px, 65px); }
-    86.75497% { transform: translate(569px, 65px); }
-    87.41722% { transform: translate(569px, 53px); }
-    90.72848% { transform: translate(569px, 53px); }
-    91.39073% { transform: translate(581px, 53px); }
-    92.05298% { transform: translate(593px, 53px); }
-    94.70199% { transform: translate(593px, 53px); }
-    95.36424% { transform: translate(605px, 53px); }
-    96.02649% { transform: translate(617px, 53px); }
-    96.68874% { transform: translate(629px, 53px); }
-    97.35099% { transform: translate(629px, 41px); }
+    0.00000% { transform: translate(521px, 53px); }
+    2.61438% { transform: translate(521px, 53px); }
+    3.26797% { transform: translate(509px, 53px); }
+    6.53595% { transform: translate(509px, 53px); }
+    7.18954% { transform: translate(509px, 41px); }
+    10.45752% { transform: translate(509px, 41px); }
+    11.11111% { transform: translate(509px, 29px); }
+    14.37908% { transform: translate(509px, 29px); }
+    15.03268% { transform: translate(497px, 29px); }
+    18.30065% { transform: translate(497px, 29px); }
+    18.95425% { transform: translate(497px, 17px); }
+    22.22222% { transform: translate(497px, 17px); }
+    22.87582% { transform: translate(509px, 17px); }
+    26.14379% { transform: translate(509px, 17px); }
+    26.79739% { transform: translate(521px, 17px); }
+    27.45098% { transform: translate(521px, 29px); }
+    30.71895% { transform: translate(521px, 29px); }
+    31.37255% { transform: translate(521px, 41px); }
+    34.64052% { transform: translate(521px, 41px); }
+    35.29412% { transform: translate(533px, 41px); }
+    35.94771% { transform: translate(533px, 29px); }
+    38.56209% { transform: translate(533px, 29px); }
+    39.21569% { transform: translate(545px, 29px); }
+    41.83007% { transform: translate(545px, 29px); }
+    42.48366% { transform: translate(557px, 29px); }
+    43.13725% { transform: translate(557px, 17px); }
+    46.40523% { transform: translate(557px, 17px); }
+    47.05882% { transform: translate(557px, 29px); }
+    47.71242% { transform: translate(557px, 41px); }
+    50.32680% { transform: translate(557px, 41px); }
+    50.98039% { transform: translate(557px, 53px); }
+    54.24837% { transform: translate(557px, 53px); }
+    54.90196% { transform: translate(557px, 65px); }
+    58.16993% { transform: translate(557px, 65px); }
+    58.82353% { transform: translate(545px, 65px); }
+    61.43791% { transform: translate(545px, 65px); }
+    62.09150% { transform: translate(533px, 65px); }
+    62.74510% { transform: translate(533px, 53px); }
+    65.35948% { transform: translate(533px, 53px); }
+    66.01307% { transform: translate(533px, 65px); }
+    66.66667% { transform: translate(533px, 77px); }
+    69.93464% { transform: translate(533px, 77px); }
+    70.58824% { transform: translate(521px, 77px); }
+    73.85621% { transform: translate(521px, 77px); }
+    74.50980% { transform: translate(509px, 77px); }
+    75.16340% { transform: translate(509px, 65px); }
+    78.43137% { transform: translate(509px, 65px); }
+    79.08497% { transform: translate(509px, 77px); }
+    79.73856% { transform: translate(509px, 89px); }
+    83.00654% { transform: translate(509px, 89px); }
+    83.66013% { transform: translate(521px, 89px); }
+    84.31373% { transform: translate(533px, 89px); }
+    84.96732% { transform: translate(545px, 89px); }
+    85.62092% { transform: translate(557px, 89px); }
+    86.27451% { transform: translate(569px, 89px); }
+    86.92810% { transform: translate(581px, 89px); }
+    89.54248% { transform: translate(581px, 89px); }
+    90.19608% { transform: translate(581px, 77px); }
+    90.84967% { transform: translate(593px, 77px); }
+    91.50327% { transform: translate(593px, 65px); }
+    94.11765% { transform: translate(593px, 65px); }
+    94.77124% { transform: translate(605px, 65px); }
+    95.42484% { transform: translate(617px, 65px); }
+    96.07843% { transform: translate(617px, 53px); }
+    96.73203% { transform: translate(629px, 53px); }
+    97.38562% { transform: translate(629px, 41px); }
     100.00000% { transform: translate(629px, 41px); }
   }
   @keyframes actor-fade-2 {
     0% { opacity: 0; }
-    2.25% { opacity: 0; }
-    2.74% { opacity: 1; }
-    97.91% { opacity: 1; }
-    98.39% { opacity: 0; }
+    2.18% { opacity: 0; }
+    2.65% { opacity: 1; }
+    97.98% { opacity: 1; }
+    98.44% { opacity: 0; }
     100% { opacity: 0; }
   }
   @keyframes actor-facing-2 {
     0% { transform: scaleX(-1); }
-    19.20530% { transform: scaleX(1); }
-    50.99338% { transform: scaleX(-1); }
-    78.14570% { transform: scaleX(1); }
+    22.22222% { transform: scaleX(1); }
+    58.16993% { transform: scaleX(-1); }
+    83.00654% { transform: scaleX(1); }
     100% { transform: scaleX(1); }
   }
   @keyframes watering-sparkle {
@@ -693,255 +707,261 @@
     <rect x="624" y="72" width="10" height="10" rx="2" fill="#2a1f14"/>
     <rect x="624" y="84" width="10" height="10" rx="2" fill="#2a1f14"/>
     <rect x="636" y="12" width="10" height="10" rx="2" fill="#2a1f14"/>
+    <rect x="636" y="24" width="10" height="10" rx="2" fill="#2a1f14"/>
   </g>
   <g id="growth-layer">
-    <g class="growth-cell" data-cell="0,5" style="transform-origin:17px 77px; animation: bloom-pop 0.4s ease 59.29s;">
+    <g class="growth-cell" data-cell="0,5" style="transform-origin:17px 77px; animation: bloom-pop 0.4s ease 61.39s;">
     <rect x="12" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 2.25s forwards;"/>
     <g style="opacity:0; transform-origin:17px 77px; animation: plant-appear 0.5s ease 3.51s forwards;"><g data-plant="bud"><g transform="translate(12 72)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#4e75a8" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#93c5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="37,1" style="transform-origin:461px 29px; animation: bloom-pop 0.4s ease 58.09s;">
+    <g class="growth-cell" data-cell="37,1" style="transform-origin:461px 29px; animation: bloom-pop 0.4s ease 60.19s;">
     <rect x="456" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 2.95s forwards;"/>
     <g style="opacity:0; transform-origin:461px 29px; animation: plant-appear 0.5s ease 4.21s forwards;"><g data-plant="blossom"><g transform="translate(456 24)" shape-rendering="crispEdges"><path fill="#ad427b" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#f9a8d4" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe2f0" d="M4 1h1v1h-1z"/><path fill="#fbbf24" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="42,2" style="transform-origin:521px 41px; animation: bloom-pop 0.4s ease 58.41s;">
-    <rect x="516" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 3.65s forwards;"/>
-    <g style="opacity:0; transform-origin:521px 41px; animation: plant-appear 0.5s ease 4.91s forwards;"><g data-plant="bud"><g transform="translate(516 36)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#7960ad" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#c4b5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="42,3" style="transform-origin:521px 53px; animation: bloom-pop 0.4s ease 60.43s;">
+    <rect x="516" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 3.30s forwards;"/>
+    <g style="opacity:0; transform-origin:521px 53px; animation: plant-appear 0.5s ease 4.56s forwards;"><g data-plant="leaf"><g transform="translate(516 48)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="41,2" style="transform-origin:509px 41px; animation: bloom-pop 0.4s ease 58.33s;">
-    <rect x="504" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 5.75s forwards;"/>
-    <g style="opacity:0; transform-origin:509px 41px; animation: plant-appear 0.5s ease 7.01s forwards;"><g data-plant="blossom"><g transform="translate(504 36)" shape-rendering="crispEdges"><path fill="#7960ad" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#c4b5fd" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#fde68a" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="41,3" style="transform-origin:509px 53px; animation: bloom-pop 0.4s ease 60.35s;">
+    <rect x="504" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 5.40s forwards;"/>
+    <g style="opacity:0; transform-origin:509px 53px; animation: plant-appear 0.5s ease 6.66s forwards;"><g data-plant="bud"><g transform="translate(504 48)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ad427b" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe2f0" d="M4 1h1v1h-1z"/><path fill="#f9a8d4" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="33,2" style="transform-origin:413px 41px; animation: bloom-pop 0.4s ease 57.69s;">
+    <g class="growth-cell" data-cell="33,2" style="transform-origin:413px 41px; animation: bloom-pop 0.4s ease 59.79s;">
     <rect x="408" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 6.45s forwards;"/>
     <g style="opacity:0; transform-origin:413px 41px; animation: plant-appear 0.5s ease 7.71s forwards;"><g data-plant="sunflower"><g transform="translate(408 36)" shape-rendering="crispEdges"><path fill="#fbbf24" d="M4 0h1v1h-1zM2 1h2v1h-2zM5 1h2v1h-2zM1 2h2v1h-2zM6 2h2v1h-2zM2 3h2v1h-2zM5 3h2v1h-2zM3 4h3v1h-3z"/><path fill="#fff0a6" d="M4 1h1v1h-1zM3 2h1v1h-1zM5 2h1v1h-1z"/><path fill="#92400e" d="M4 2h1v1h-1zM4 3h1v1h-1z"/><path fill="#4ade80" d="M3 5h1v1h-1zM5 5h1v1h-1zM2 6h1v1h-1zM6 6h1v1h-1z"/><path fill="#22c55e" d="M4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="41,1" style="transform-origin:509px 29px; animation: bloom-pop 0.4s ease 58.41s;">
-    <rect x="504" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 7.85s forwards;"/>
-    <g style="opacity:0; transform-origin:509px 29px; animation: plant-appear 0.5s ease 9.11s forwards;"><g data-plant="bud"><g transform="translate(504 24)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#7960ad" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#c4b5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="41,2" style="transform-origin:509px 41px; animation: bloom-pop 0.4s ease 60.43s;">
+    <rect x="504" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 7.50s forwards;"/>
+    <g style="opacity:0; transform-origin:509px 41px; animation: plant-appear 0.5s ease 8.76s forwards;"><g data-plant="blossom"><g transform="translate(504 36)" shape-rendering="crispEdges"><path fill="#7960ad" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#c4b5fd" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#fde68a" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="33,3" style="transform-origin:413px 53px; animation: bloom-pop 0.4s ease 57.61s;">
+    <g class="growth-cell" data-cell="33,3" style="transform-origin:413px 53px; animation: bloom-pop 0.4s ease 59.71s;">
     <rect x="408" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 8.55s forwards;"/>
     <g style="opacity:0; transform-origin:413px 53px; animation: plant-appear 0.5s ease 9.81s forwards;"><g data-plant="blossom"><g transform="translate(408 48)" shape-rendering="crispEdges"><path fill="#b45255" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#fca5a5" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fcd34d" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="40,1" style="transform-origin:497px 29px; animation: bloom-pop 0.4s ease 58.33s;">
-    <rect x="492" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 9.95s forwards;"/>
-    <g style="opacity:0; transform-origin:497px 29px; animation: plant-appear 0.5s ease 11.21s forwards;"><g data-plant="bud"><g transform="translate(492 24)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="41,1" style="transform-origin:509px 29px; animation: bloom-pop 0.4s ease 60.51s;">
+    <rect x="504" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 9.60s forwards;"/>
+    <g style="opacity:0; transform-origin:509px 29px; animation: plant-appear 0.5s ease 10.86s forwards;"><g data-plant="bud"><g transform="translate(504 24)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#7960ad" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#c4b5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="20,5" style="transform-origin:257px 77px; animation: bloom-pop 0.4s ease 57.69s;">
+    <g class="growth-cell" data-cell="20,5" style="transform-origin:257px 77px; animation: bloom-pop 0.4s ease 59.79s;">
     <rect x="252" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 11.00s forwards;"/>
     <g style="opacity:0; transform-origin:257px 77px; animation: plant-appear 0.5s ease 12.26s forwards;"><g data-plant="blossom"><g transform="translate(252 72)" shape-rendering="crispEdges"><path fill="#7960ad" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#c4b5fd" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#fde68a" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="30,3" style="transform-origin:377px 53px; animation: bloom-pop 0.4s ease 57.37s;">
+    <g class="growth-cell" data-cell="30,3" style="transform-origin:377px 53px; animation: bloom-pop 0.4s ease 59.47s;">
     <rect x="372" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 11.35s forwards;"/>
     <g style="opacity:0; transform-origin:377px 53px; animation: plant-appear 0.5s ease 12.61s forwards;"><g data-plant="bud"><g transform="translate(372 48)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     <g style="opacity:0; transform-origin:377px 53px; animation: plant-appear 0.4s ease 12.91s forwards;"><g><rect x="379" y="49" width="1" height="1" fill="#1c1917"/><rect x="378" y="50" width="1" height="1" fill="#dc2626"/><rect x="379" y="50" width="1" height="1" fill="#1c1917"/><rect x="380" y="50" width="1" height="1" fill="#dc2626"/><rect x="378" y="51" width="1" height="1" fill="#dc2626"/><rect x="379" y="51" width="1" height="1" fill="#1c1917"/><rect x="380" y="51" width="1" height="1" fill="#dc2626"/><rect x="379" y="52" width="1" height="1" fill="#1c1917"/><rect x="380" y="49" width="1" height="1" fill="#ffffff"/></g></g>
     </g>
-    <g class="growth-cell" data-cell="40,0" style="transform-origin:497px 17px; animation: bloom-pop 0.4s ease 58.41s;">
-    <rect x="492" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 12.05s forwards;"/>
-    <g style="opacity:0; transform-origin:497px 17px; animation: plant-appear 0.5s ease 13.31s forwards;"><g data-plant="bud"><g transform="translate(492 12)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#b45255" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fca5a5" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="40,1" style="transform-origin:497px 29px; animation: bloom-pop 0.4s ease 60.43s;">
+    <rect x="492" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 11.70s forwards;"/>
+    <g style="opacity:0; transform-origin:497px 29px; animation: plant-appear 0.5s ease 12.96s forwards;"><g data-plant="bud"><g transform="translate(492 24)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="21,5" style="transform-origin:269px 77px; animation: bloom-pop 0.4s ease 57.61s;">
+    <g class="growth-cell" data-cell="21,5" style="transform-origin:269px 77px; animation: bloom-pop 0.4s ease 59.71s;">
     <rect x="264" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 13.10s forwards;"/>
     <g style="opacity:0; transform-origin:269px 77px; animation: plant-appear 0.5s ease 14.36s forwards;"><g data-plant="bud"><g transform="translate(264 72)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#a054ad" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe0ff" d="M4 1h1v1h-1z"/><path fill="#f0abfc" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="30,4" style="transform-origin:377px 65px; animation: bloom-pop 0.4s ease 57.45s;">
+    <g class="growth-cell" data-cell="30,4" style="transform-origin:377px 65px; animation: bloom-pop 0.4s ease 59.55s;">
     <rect x="372" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 13.45s forwards;"/>
     <g style="opacity:0; transform-origin:377px 65px; animation: plant-appear 0.5s ease 14.71s forwards;"><g data-plant="bud"><g transform="translate(372 60)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ad427b" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe2f0" d="M4 1h1v1h-1z"/><path fill="#f9a8d4" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="41,0" style="transform-origin:509px 17px; animation: bloom-pop 0.4s ease 58.49s;">
-    <rect x="504" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 14.15s forwards;"/>
-    <g style="opacity:0; transform-origin:509px 17px; animation: plant-appear 0.5s ease 15.41s forwards;"><g data-plant="bud"><g transform="translate(504 12)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#7960ad" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#c4b5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="40,0" style="transform-origin:497px 17px; animation: bloom-pop 0.4s ease 60.51s;">
+    <rect x="492" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 13.80s forwards;"/>
+    <g style="opacity:0; transform-origin:497px 17px; animation: plant-appear 0.5s ease 15.06s forwards;"><g data-plant="bud"><g transform="translate(492 12)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#b45255" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fca5a5" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="22,6" style="transform-origin:281px 89px; animation: bloom-pop 0.4s ease 57.61s;">
+    <g class="growth-cell" data-cell="22,6" style="transform-origin:281px 89px; animation: bloom-pop 0.4s ease 59.71s;">
     <rect x="276" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 15.55s forwards;"/>
     <g style="opacity:0; transform-origin:281px 89px; animation: plant-appear 0.5s ease 16.81s forwards;"><g data-plant="bud"><g transform="translate(276 84)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="30,5" style="transform-origin:377px 77px; animation: bloom-pop 0.4s ease 57.53s;">
+    <g class="growth-cell" data-cell="30,5" style="transform-origin:377px 77px; animation: bloom-pop 0.4s ease 59.63s;">
     <rect x="372" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 15.55s forwards;"/>
     <g style="opacity:0; transform-origin:377px 77px; animation: plant-appear 0.5s ease 16.81s forwards;"><g data-plant="blossom"><g transform="translate(372 72)" shape-rendering="crispEdges"><path fill="#4e75a8" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#93c5fd" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#fef08a" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="42,1" style="transform-origin:521px 29px; animation: bloom-pop 0.4s ease 58.49s;">
-    <rect x="516" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 16.60s forwards;"/>
-    <g style="opacity:0; transform-origin:521px 29px; animation: plant-appear 0.5s ease 17.86s forwards;"><g data-plant="bud"><g transform="translate(516 24)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="41,0" style="transform-origin:509px 17px; animation: bloom-pop 0.4s ease 60.59s;">
+    <rect x="504" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 15.90s forwards;"/>
+    <g style="opacity:0; transform-origin:509px 17px; animation: plant-appear 0.5s ease 17.16s forwards;"><g data-plant="bud"><g transform="translate(504 12)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#7960ad" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#c4b5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="28,5" style="transform-origin:353px 77px; animation: bloom-pop 0.4s ease 57.37s;">
+    <g class="growth-cell" data-cell="28,5" style="transform-origin:353px 77px; animation: bloom-pop 0.4s ease 59.47s;">
     <rect x="348" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 18.00s forwards;"/>
     <g style="opacity:0; transform-origin:353px 77px; animation: plant-appear 0.5s ease 19.26s forwards;"><g data-plant="blossom"><g transform="translate(348 72)" shape-rendering="crispEdges"><path fill="#b45255" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#fca5a5" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fcd34d" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="43,1" style="transform-origin:533px 29px; animation: bloom-pop 0.4s ease 58.57s;">
-    <rect x="528" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 18.35s forwards;"/>
-    <g style="opacity:0; transform-origin:533px 29px; animation: plant-appear 0.5s ease 19.61s forwards;"><g data-plant="leaf"><g transform="translate(528 24)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="42,1" style="transform-origin:521px 29px; animation: bloom-pop 0.4s ease 60.59s;">
+    <rect x="516" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 18.35s forwards;"/>
+    <g style="opacity:0; transform-origin:521px 29px; animation: plant-appear 0.5s ease 19.61s forwards;"><g data-plant="bud"><g transform="translate(516 24)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="22,2" style="transform-origin:281px 41px; animation: bloom-pop 0.4s ease 57.45s;">
+    <g class="growth-cell" data-cell="22,2" style="transform-origin:281px 41px; animation: bloom-pop 0.4s ease 59.55s;">
     <rect x="276" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 18.70s forwards;"/>
     <g style="opacity:0; transform-origin:281px 41px; animation: plant-appear 0.5s ease 19.96s forwards;"><g data-plant="bud"><g transform="translate(276 36)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#a054ad" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe0ff" d="M4 1h1v1h-1z"/><path fill="#f0abfc" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     <g style="opacity:0; transform-origin:281px 41px; animation: plant-appear 0.4s ease 20.26s forwards;"><g><rect x="283" y="37" width="1" height="1" fill="#1c1917"/><rect x="282" y="38" width="1" height="1" fill="#dc2626"/><rect x="283" y="38" width="1" height="1" fill="#1c1917"/><rect x="284" y="38" width="1" height="1" fill="#dc2626"/><rect x="282" y="39" width="1" height="1" fill="#dc2626"/><rect x="283" y="39" width="1" height="1" fill="#1c1917"/><rect x="284" y="39" width="1" height="1" fill="#dc2626"/><rect x="283" y="40" width="1" height="1" fill="#1c1917"/><rect x="284" y="37" width="1" height="1" fill="#ffffff"/></g></g>
     </g>
-    <g class="growth-cell" data-cell="28,4" style="transform-origin:353px 65px; animation: bloom-pop 0.4s ease 57.29s;">
+    <g class="growth-cell" data-cell="28,4" style="transform-origin:353px 65px; animation: bloom-pop 0.4s ease 59.39s;">
     <rect x="348" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 20.10s forwards;"/>
     <g style="opacity:0; transform-origin:353px 65px; animation: plant-appear 0.5s ease 21.36s forwards;"><g data-plant="blossom"><g transform="translate(348 60)" shape-rendering="crispEdges"><path fill="#a054ad" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#f0abfc" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe0ff" d="M4 1h1v1h-1z"/><path fill="#fbbf24" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="44,1" style="transform-origin:545px 29px; animation: bloom-pop 0.4s ease 58.65s;">
-    <rect x="540" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 20.10s forwards;"/>
-    <g style="opacity:0; transform-origin:545px 29px; animation: plant-appear 0.5s ease 21.36s forwards;"><g data-plant="leaf"><g transform="translate(540 24)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="42,2" style="transform-origin:521px 41px; animation: bloom-pop 0.4s ease 60.51s;">
+    <rect x="516" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 20.45s forwards;"/>
+    <g style="opacity:0; transform-origin:521px 41px; animation: plant-appear 0.5s ease 21.71s forwards;"><g data-plant="bud"><g transform="translate(516 36)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#7960ad" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#c4b5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="23,0" style="transform-origin:293px 17px; animation: bloom-pop 0.4s ease 57.53s;">
+    <g class="growth-cell" data-cell="23,0" style="transform-origin:293px 17px; animation: bloom-pop 0.4s ease 59.63s;">
     <rect x="288" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 21.50s forwards;"/>
     <g style="opacity:0; transform-origin:293px 17px; animation: plant-appear 0.5s ease 22.76s forwards;"><g data-plant="bud"><g transform="translate(288 12)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#7960ad" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#c4b5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="45,0" style="transform-origin:557px 17px; animation: bloom-pop 0.4s ease 58.81s;">
-    <rect x="552" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 22.55s forwards;"/>
-    <g style="opacity:0; transform-origin:557px 17px; animation: plant-appear 0.5s ease 23.81s forwards;"><g data-plant="bud"><g transform="translate(552 12)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#4e75a8" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#93c5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
-    <g style="opacity:0; transform-origin:557px 17px; animation: plant-appear 0.4s ease 24.11s forwards;"><g><rect x="559" y="13" width="1" height="1" fill="#1c1917"/><rect x="558" y="14" width="1" height="1" fill="#dc2626"/><rect x="559" y="14" width="1" height="1" fill="#1c1917"/><rect x="560" y="14" width="1" height="1" fill="#dc2626"/><rect x="558" y="15" width="1" height="1" fill="#dc2626"/><rect x="559" y="15" width="1" height="1" fill="#1c1917"/><rect x="560" y="15" width="1" height="1" fill="#dc2626"/><rect x="559" y="16" width="1" height="1" fill="#1c1917"/><rect x="560" y="13" width="1" height="1" fill="#ffffff"/></g></g>
+    <g class="growth-cell" data-cell="43,1" style="transform-origin:533px 29px; animation: bloom-pop 0.4s ease 60.67s;">
+    <rect x="528" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 22.55s forwards;"/>
+    <g style="opacity:0; transform-origin:533px 29px; animation: plant-appear 0.5s ease 23.81s forwards;"><g data-plant="leaf"><g transform="translate(528 24)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="26,3" style="transform-origin:329px 53px; animation: bloom-pop 0.4s ease 57.05s;">
+    <g class="growth-cell" data-cell="26,3" style="transform-origin:329px 53px; animation: bloom-pop 0.4s ease 59.15s;">
     <rect x="324" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 22.90s forwards;"/>
     <g style="opacity:0; transform-origin:329px 53px; animation: plant-appear 0.5s ease 24.16s forwards;"><g data-plant="blossom"><g transform="translate(324 48)" shape-rendering="crispEdges"><path fill="#ac723d" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#fdba74" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fef9c3" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="26,0" style="transform-origin:329px 17px; animation: bloom-pop 0.4s ease 57.29s;">
+    <g class="growth-cell" data-cell="26,0" style="transform-origin:329px 17px; animation: bloom-pop 0.4s ease 59.39s;">
     <rect x="324" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 24.30s forwards;"/>
     <g style="opacity:0; transform-origin:329px 17px; animation: plant-appear 0.5s ease 25.56s forwards;"><g data-plant="blossom"><g transform="translate(324 12)" shape-rendering="crispEdges"><path fill="#4e75a8" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#93c5fd" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#fef08a" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="45,2" style="transform-origin:557px 41px; animation: bloom-pop 0.4s ease 58.65s;">
-    <rect x="552" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 24.65s forwards;"/>
-    <g style="opacity:0; transform-origin:557px 41px; animation: plant-appear 0.5s ease 25.91s forwards;"><g data-plant="leaf"><g transform="translate(552 36)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="44,1" style="transform-origin:545px 29px; animation: bloom-pop 0.4s ease 60.75s;">
+    <rect x="540" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 24.30s forwards;"/>
+    <g style="opacity:0; transform-origin:545px 29px; animation: plant-appear 0.5s ease 25.56s forwards;"><g data-plant="leaf"><g transform="translate(540 24)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="26,2" style="transform-origin:329px 41px; animation: bloom-pop 0.4s ease 57.13s;">
+    <g class="growth-cell" data-cell="26,2" style="transform-origin:329px 41px; animation: bloom-pop 0.4s ease 59.23s;">
     <rect x="324" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 25.00s forwards;"/>
     <g style="opacity:0; transform-origin:329px 41px; animation: plant-appear 0.5s ease 26.26s forwards;"><g data-plant="bud"><g transform="translate(324 36)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ad427b" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe2f0" d="M4 1h1v1h-1z"/><path fill="#f9a8d4" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="26,1" style="transform-origin:329px 29px; animation: bloom-pop 0.4s ease 57.21s;">
+    <g class="growth-cell" data-cell="26,1" style="transform-origin:329px 29px; animation: bloom-pop 0.4s ease 59.31s;">
     <rect x="324" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 26.05s forwards;"/>
     <g style="opacity:0; transform-origin:329px 29px; animation: plant-appear 0.5s ease 27.31s forwards;"><g data-plant="leaf"><g transform="translate(324 24)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="45,3" style="transform-origin:557px 53px; animation: bloom-pop 0.4s ease 58.57s;">
-    <rect x="552" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 26.75s forwards;"/>
-    <g style="opacity:0; transform-origin:557px 53px; animation: plant-appear 0.5s ease 28.01s forwards;"><g data-plant="pine"><g transform="translate(552 48)" shape-rendering="crispEdges"><path fill="#a8d98a" d="M4 0h1v1h-1zM4 2h1v1h-1z"/><path fill="#15351f" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1zM3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1zM1 5h1v1h-1zM7 5h1v1h-1zM3 6h1v1h-1zM5 6h1v1h-1zM3 8h3v1h-3z"/><path fill="#4e9a58" d="M4 1h1v1h-1zM3 2h1v1h-1zM4 3h1v1h-1zM3 4h2v1h-2zM2 5h3v1h-3z"/><path fill="#245538" d="M5 2h1v1h-1zM5 4h1v1h-1zM5 5h2v1h-2z"/><path fill="#78502e" d="M4 6h1v1h-1zM3 7h1v1h-1zM5 7h1v1h-1z"/><path fill="#d39c62" d="M4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="45,0" style="transform-origin:557px 17px; animation: bloom-pop 0.4s ease 60.91s;">
+    <rect x="552" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 26.75s forwards;"/>
+    <g style="opacity:0; transform-origin:557px 17px; animation: plant-appear 0.5s ease 28.01s forwards;"><g data-plant="bud"><g transform="translate(552 12)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#4e75a8" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#93c5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g style="opacity:0; transform-origin:557px 17px; animation: plant-appear 0.4s ease 28.31s forwards;"><g><rect x="559" y="13" width="1" height="1" fill="#1c1917"/><rect x="558" y="14" width="1" height="1" fill="#dc2626"/><rect x="559" y="14" width="1" height="1" fill="#1c1917"/><rect x="560" y="14" width="1" height="1" fill="#dc2626"/><rect x="558" y="15" width="1" height="1" fill="#dc2626"/><rect x="559" y="15" width="1" height="1" fill="#1c1917"/><rect x="560" y="15" width="1" height="1" fill="#dc2626"/><rect x="559" y="16" width="1" height="1" fill="#1c1917"/><rect x="560" y="13" width="1" height="1" fill="#ffffff"/></g></g>
     </g>
-    <g class="growth-cell" data-cell="29,0" style="transform-origin:365px 17px; animation: bloom-pop 0.4s ease 57.53s;">
+    <g class="growth-cell" data-cell="29,0" style="transform-origin:365px 17px; animation: bloom-pop 0.4s ease 59.63s;">
     <rect x="360" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 28.50s forwards;"/>
     <g style="opacity:0; transform-origin:365px 17px; animation: plant-appear 0.5s ease 29.76s forwards;"><g data-plant="blossom"><g transform="translate(360 12)" shape-rendering="crispEdges"><path fill="#ac723d" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#fdba74" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fef9c3" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="45,4" style="transform-origin:557px 65px; animation: bloom-pop 0.4s ease 58.65s;">
-    <rect x="552" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 28.85s forwards;"/>
-    <g style="opacity:0; transform-origin:557px 65px; animation: plant-appear 0.5s ease 30.11s forwards;"><g data-plant="bud"><g transform="translate(552 60)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#4e75a8" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#93c5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="45,2" style="transform-origin:557px 41px; animation: bloom-pop 0.4s ease 60.75s;">
+    <rect x="552" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 28.85s forwards;"/>
+    <g style="opacity:0; transform-origin:557px 41px; animation: plant-appear 0.5s ease 30.11s forwards;"><g data-plant="leaf"><g transform="translate(552 36)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="44,4" style="transform-origin:545px 65px; animation: bloom-pop 0.4s ease 58.57s;">
-    <rect x="540" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 30.60s forwards;"/>
-    <g style="opacity:0; transform-origin:545px 65px; animation: plant-appear 0.5s ease 31.86s forwards;"><g data-plant="leaf"><g transform="translate(540 60)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="45,3" style="transform-origin:557px 53px; animation: bloom-pop 0.4s ease 60.67s;">
+    <rect x="552" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 30.95s forwards;"/>
+    <g style="opacity:0; transform-origin:557px 53px; animation: plant-appear 0.5s ease 32.21s forwards;"><g data-plant="pine"><g transform="translate(552 48)" shape-rendering="crispEdges"><path fill="#a8d98a" d="M4 0h1v1h-1zM4 2h1v1h-1z"/><path fill="#15351f" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1zM3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1zM1 5h1v1h-1zM7 5h1v1h-1zM3 6h1v1h-1zM5 6h1v1h-1zM3 8h3v1h-3z"/><path fill="#4e9a58" d="M4 1h1v1h-1zM3 2h1v1h-1zM4 3h1v1h-1zM3 4h2v1h-2zM2 5h3v1h-3z"/><path fill="#245538" d="M5 2h1v1h-1zM5 4h1v1h-1zM5 5h2v1h-2z"/><path fill="#78502e" d="M4 6h1v1h-1zM3 7h1v1h-1zM5 7h1v1h-1z"/><path fill="#d39c62" d="M4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="37,0" style="transform-origin:461px 17px; animation: bloom-pop 0.4s ease 58.17s;">
+    <g class="growth-cell" data-cell="37,0" style="transform-origin:461px 17px; animation: bloom-pop 0.4s ease 60.27s;">
     <rect x="456" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 32.00s forwards;"/>
     <g style="opacity:0; transform-origin:461px 17px; animation: plant-appear 0.5s ease 33.26s forwards;"><g data-plant="bud"><g transform="translate(456 12)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#4e75a8" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#93c5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="43,3" style="transform-origin:533px 53px; animation: bloom-pop 0.4s ease 58.41s;">
-    <rect x="528" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 32.70s forwards;"/>
-    <g style="opacity:0; transform-origin:533px 53px; animation: plant-appear 0.5s ease 33.96s forwards;"><g data-plant="leaf"><g transform="translate(528 48)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="45,4" style="transform-origin:557px 65px; animation: bloom-pop 0.4s ease 60.75s;">
+    <rect x="552" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 33.05s forwards;"/>
+    <g style="opacity:0; transform-origin:557px 65px; animation: plant-appear 0.5s ease 34.31s forwards;"><g data-plant="bud"><g transform="translate(552 60)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#4e75a8" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#93c5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="38,1" style="transform-origin:473px 29px; animation: bloom-pop 0.4s ease 58.17s;">
+    <g class="growth-cell" data-cell="38,1" style="transform-origin:473px 29px; animation: bloom-pop 0.4s ease 60.27s;">
     <rect x="468" y="24" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 33.75s forwards;"/>
     <g style="opacity:0; transform-origin:473px 29px; animation: plant-appear 0.5s ease 35.01s forwards;"><g data-plant="bud"><g transform="translate(468 24)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#4e75a8" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#93c5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="42,3" style="transform-origin:521px 53px; animation: bloom-pop 0.4s ease 58.33s;">
-    <rect x="516" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 34.45s forwards;"/>
-    <g style="opacity:0; transform-origin:521px 53px; animation: plant-appear 0.5s ease 35.71s forwards;"><g data-plant="leaf"><g transform="translate(516 48)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
-    </g>
-    <g class="growth-cell" data-cell="38,2" style="transform-origin:473px 41px; animation: bloom-pop 0.4s ease 58.09s;">
+    <g class="growth-cell" data-cell="38,2" style="transform-origin:473px 41px; animation: bloom-pop 0.4s ease 60.19s;">
     <rect x="468" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 34.80s forwards;"/>
     <g style="opacity:0; transform-origin:473px 41px; animation: plant-appear 0.5s ease 36.06s forwards;"><g data-plant="bud"><g transform="translate(468 36)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="38,3" style="transform-origin:473px 53px; animation: bloom-pop 0.4s ease 58.01s;">
+    <g class="growth-cell" data-cell="44,4" style="transform-origin:545px 65px; animation: bloom-pop 0.4s ease 60.67s;">
+    <rect x="540" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 34.80s forwards;"/>
+    <g style="opacity:0; transform-origin:545px 65px; animation: plant-appear 0.5s ease 36.06s forwards;"><g data-plant="leaf"><g transform="translate(540 60)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    </g>
+    <g class="growth-cell" data-cell="38,3" style="transform-origin:473px 53px; animation: bloom-pop 0.4s ease 60.11s;">
     <rect x="468" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 36.20s forwards;"/>
     <g style="opacity:0; transform-origin:473px 53px; animation: plant-appear 0.5s ease 37.46s forwards;"><g data-plant="blossom"><g transform="translate(468 48)" shape-rendering="crispEdges"><path fill="#ac723d" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#fdba74" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fef9c3" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="41,3" style="transform-origin:509px 53px; animation: bloom-pop 0.4s ease 58.25s;">
-    <rect x="504" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 36.55s forwards;"/>
-    <g style="opacity:0; transform-origin:509px 53px; animation: plant-appear 0.5s ease 37.81s forwards;"><g data-plant="bud"><g transform="translate(504 48)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ad427b" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe2f0" d="M4 1h1v1h-1z"/><path fill="#f9a8d4" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="43,3" style="transform-origin:533px 53px; animation: bloom-pop 0.4s ease 60.51s;">
+    <rect x="528" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 36.90s forwards;"/>
+    <g style="opacity:0; transform-origin:533px 53px; animation: plant-appear 0.5s ease 38.16s forwards;"><g data-plant="leaf"><g transform="translate(528 48)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="37,4" style="transform-origin:461px 65px; animation: bloom-pop 0.4s ease 58.01s;">
+    <g class="growth-cell" data-cell="37,4" style="transform-origin:461px 65px; animation: bloom-pop 0.4s ease 60.11s;">
     <rect x="456" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 37.60s forwards;"/>
     <g style="opacity:0; transform-origin:461px 65px; animation: plant-appear 0.5s ease 38.86s forwards;"><g data-plant="blossom"><g transform="translate(456 60)" shape-rendering="crispEdges"><path fill="#a054ad" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#f0abfc" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe0ff" d="M4 1h1v1h-1z"/><path fill="#fbbf24" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="39,4" style="transform-origin:485px 65px; animation: bloom-pop 0.4s ease 58.17s;">
+    <g class="growth-cell" data-cell="39,4" style="transform-origin:485px 65px; animation: bloom-pop 0.4s ease 60.27s;">
     <rect x="480" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 38.65s forwards;"/>
     <g style="opacity:0; transform-origin:485px 65px; animation: plant-appear 0.5s ease 39.91s forwards;"><g data-plant="bud"><g transform="translate(480 60)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#4e75a8" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#93c5fd" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="41,4" style="transform-origin:509px 65px; animation: bloom-pop 0.4s ease 58.33s;">
-    <rect x="504" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 38.65s forwards;"/>
-    <g style="opacity:0; transform-origin:509px 65px; animation: plant-appear 0.5s ease 39.91s forwards;"><g data-plant="bud"><g transform="translate(504 60)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
-    <g style="opacity:0; transform-origin:509px 65px; animation: plant-appear 0.4s ease 40.21s forwards;"><g><rect x="511" y="61" width="1" height="1" fill="#1c1917"/><rect x="510" y="62" width="1" height="1" fill="#dc2626"/><rect x="511" y="62" width="1" height="1" fill="#1c1917"/><rect x="512" y="62" width="1" height="1" fill="#dc2626"/><rect x="510" y="63" width="1" height="1" fill="#dc2626"/><rect x="511" y="63" width="1" height="1" fill="#1c1917"/><rect x="512" y="63" width="1" height="1" fill="#dc2626"/><rect x="511" y="64" width="1" height="1" fill="#1c1917"/><rect x="512" y="61" width="1" height="1" fill="#ffffff"/></g></g>
+    <g class="growth-cell" data-cell="43,5" style="transform-origin:533px 77px; animation: bloom-pop 0.4s ease 60.67s;">
+    <rect x="528" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 39.35s forwards;"/>
+    <g style="opacity:0; transform-origin:533px 77px; animation: plant-appear 0.5s ease 40.61s forwards;"><g data-plant="bud"><g transform="translate(528 72)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="37,6" style="transform-origin:461px 89px; animation: bloom-pop 0.4s ease 58.17s;">
+    <g class="growth-cell" data-cell="37,6" style="transform-origin:461px 89px; animation: bloom-pop 0.4s ease 60.27s;">
     <rect x="456" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 40.05s forwards;"/>
     <g style="opacity:0; transform-origin:461px 89px; animation: plant-appear 0.5s ease 41.31s forwards;"><g data-plant="blossom"><g transform="translate(456 84)" shape-rendering="crispEdges"><path fill="#b45255" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#fca5a5" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fcd34d" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="39,5" style="transform-origin:485px 77px; animation: bloom-pop 0.4s ease 58.25s;">
+    <g class="growth-cell" data-cell="39,5" style="transform-origin:485px 77px; animation: bloom-pop 0.4s ease 60.35s;">
     <rect x="480" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 40.40s forwards;"/>
     <g style="opacity:0; transform-origin:485px 77px; animation: plant-appear 0.5s ease 41.66s forwards;"><g data-plant="leaf"><g transform="translate(480 72)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="41,6" style="transform-origin:509px 89px; animation: bloom-pop 0.4s ease 58.49s;">
-    <rect x="504" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 41.10s forwards;"/>
-    <g style="opacity:0; transform-origin:509px 89px; animation: plant-appear 0.5s ease 42.36s forwards;"><g data-plant="bud"><g transform="translate(504 84)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="42,5" style="transform-origin:521px 77px; animation: bloom-pop 0.4s ease 60.59s;">
+    <rect x="516" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 41.45s forwards;"/>
+    <g style="opacity:0; transform-origin:521px 77px; animation: plant-appear 0.5s ease 42.71s forwards;"><g data-plant="blossom"><g transform="translate(516 72)" shape-rendering="crispEdges"><path fill="#4e75a8" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#93c5fd" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#fef08a" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="36,6" style="transform-origin:449px 89px; animation: bloom-pop 0.4s ease 58.09s;">
+    <g class="growth-cell" data-cell="36,6" style="transform-origin:449px 89px; animation: bloom-pop 0.4s ease 60.19s;">
     <rect x="444" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 42.15s forwards;"/>
     <g style="opacity:0; transform-origin:449px 89px; animation: plant-appear 0.5s ease 43.41s forwards;"><g data-plant="blossom"><g transform="translate(444 84)" shape-rendering="crispEdges"><path fill="#b45255" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#fca5a5" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fcd34d" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="39,6" style="transform-origin:485px 89px; animation: bloom-pop 0.4s ease 58.33s;">
+    <g class="growth-cell" data-cell="39,6" style="transform-origin:485px 89px; animation: bloom-pop 0.4s ease 60.43s;">
     <rect x="480" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 42.50s forwards;"/>
     <g style="opacity:0; transform-origin:485px 89px; animation: plant-appear 0.5s ease 43.76s forwards;"><g data-plant="blossom"><g transform="translate(480 84)" shape-rendering="crispEdges"><path fill="#7960ad" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#c4b5fd" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#eee5ff" d="M4 1h1v1h-1z"/><path fill="#fde68a" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="40,6" style="transform-origin:497px 89px; animation: bloom-pop 0.4s ease 58.41s;">
-    <rect x="492" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 43.20s forwards;"/>
-    <g style="opacity:0; transform-origin:497px 89px; animation: plant-appear 0.5s ease 44.46s forwards;"><g data-plant="bud"><g transform="translate(492 84)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="41,4" style="transform-origin:509px 65px; animation: bloom-pop 0.4s ease 60.43s;">
+    <rect x="504" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 43.90s forwards;"/>
+    <g style="opacity:0; transform-origin:509px 65px; animation: plant-appear 0.5s ease 45.16s forwards;"><g data-plant="bud"><g transform="translate(504 60)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g style="opacity:0; transform-origin:509px 65px; animation: plant-appear 0.4s ease 45.46s forwards;"><g><rect x="511" y="61" width="1" height="1" fill="#1c1917"/><rect x="510" y="62" width="1" height="1" fill="#dc2626"/><rect x="511" y="62" width="1" height="1" fill="#1c1917"/><rect x="512" y="62" width="1" height="1" fill="#dc2626"/><rect x="510" y="63" width="1" height="1" fill="#dc2626"/><rect x="511" y="63" width="1" height="1" fill="#1c1917"/><rect x="512" y="63" width="1" height="1" fill="#dc2626"/><rect x="511" y="64" width="1" height="1" fill="#1c1917"/><rect x="512" y="61" width="1" height="1" fill="#ffffff"/></g></g>
     </g>
-    <g class="growth-cell" data-cell="38,6" style="transform-origin:473px 89px; animation: bloom-pop 0.4s ease 58.25s;">
+    <g class="growth-cell" data-cell="38,6" style="transform-origin:473px 89px; animation: bloom-pop 0.4s ease 60.35s;">
     <rect x="468" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 44.60s forwards;"/>
     <g style="opacity:0; transform-origin:473px 89px; animation: plant-appear 0.5s ease 45.86s forwards;"><g data-plant="bud"><g transform="translate(468 84)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#b45255" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fca5a5" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="42,5" style="transform-origin:521px 77px; animation: bloom-pop 0.4s ease 58.49s;">
-    <rect x="516" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-4 1.8s ease 45.65s forwards;"/>
-    <g style="opacity:0; transform-origin:521px 77px; animation: plant-appear 0.5s ease 46.91s forwards;"><g data-plant="blossom"><g transform="translate(516 72)" shape-rendering="crispEdges"><path fill="#4e75a8" d="M3 0h1v1h-1zM5 0h1v1h-1zM2 1h1v1h-1zM6 1h1v1h-1zM1 2h1v1h-1zM7 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#93c5fd" d="M3 1h1v1h-1zM5 1h1v1h-1zM2 2h2v1h-2zM5 2h2v1h-2zM3 3h3v1h-3z"/><path fill="#e1f0ff" d="M4 1h1v1h-1z"/><path fill="#fef08a" d="M4 2h1v1h-1z"/><path fill="#4ade80" d="M3 4h1v1h-1zM5 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1z"/><path fill="#22c55e" d="M4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/><path fill="#15351f" d="M4 8h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="40,6" style="transform-origin:497px 89px; animation: bloom-pop 0.4s ease 60.51s;">
+    <rect x="492" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 44.60s forwards;"/>
+    <g style="opacity:0; transform-origin:497px 89px; animation: plant-appear 0.5s ease 45.86s forwards;"><g data-plant="bud"><g transform="translate(492 84)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="43,5" style="transform-origin:533px 77px; animation: bloom-pop 0.4s ease 58.57s;">
-    <rect x="528" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 46.35s forwards;"/>
-    <g style="opacity:0; transform-origin:533px 77px; animation: plant-appear 0.5s ease 47.61s forwards;"><g data-plant="bud"><g transform="translate(528 72)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="41,6" style="transform-origin:509px 89px; animation: bloom-pop 0.4s ease 60.59s;">
+    <rect x="504" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 46.35s forwards;"/>
+    <g style="opacity:0; transform-origin:509px 89px; animation: plant-appear 0.5s ease 47.61s forwards;"><g data-plant="bud"><g transform="translate(504 84)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#ac723d" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe7c5" d="M4 1h1v1h-1z"/><path fill="#fdba74" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="44,6" style="transform-origin:545px 89px; animation: bloom-pop 0.4s ease 58.73s;">
+    <g class="growth-cell" data-cell="44,6" style="transform-origin:545px 89px; animation: bloom-pop 0.4s ease 60.83s;">
     <rect x="540" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 48.10s forwards;"/>
     <g style="opacity:0; transform-origin:545px 89px; animation: plant-appear 0.5s ease 49.36s forwards;"><g data-plant="leaf"><g transform="translate(540 84)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="45,5" style="transform-origin:557px 77px; animation: bloom-pop 0.4s ease 58.73s;">
+    <g class="growth-cell" data-cell="45,5" style="transform-origin:557px 77px; animation: bloom-pop 0.4s ease 60.83s;">
     <rect x="552" y="72" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 48.10s forwards;"/>
     <g style="opacity:0; transform-origin:557px 77px; animation: plant-appear 0.5s ease 49.36s forwards;"><g data-plant="leaf"><g transform="translate(552 72)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="46,3" style="transform-origin:569px 53px; animation: bloom-pop 0.4s ease 58.65s;">
-    <rect x="564" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 49.85s forwards;"/>
-    <g style="opacity:0; transform-origin:569px 53px; animation: plant-appear 0.5s ease 51.11s forwards;"><g data-plant="bud"><g transform="translate(564 48)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#b45255" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fca5a5" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="47,6" style="transform-origin:581px 89px; animation: bloom-pop 0.4s ease 61.07s;">
+    <rect x="576" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 49.85s forwards;"/>
+    <g style="opacity:0; transform-origin:581px 89px; animation: plant-appear 0.5s ease 51.11s forwards;"><g data-plant="leaf"><g transform="translate(576 84)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="47,6" style="transform-origin:581px 89px; animation: bloom-pop 0.4s ease 58.97s;">
-    <rect x="576" y="84" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 50.55s forwards;"/>
-    <g style="opacity:0; transform-origin:581px 89px; animation: plant-appear 0.5s ease 51.81s forwards;"><g data-plant="leaf"><g transform="translate(576 84)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
-    </g>
-    <g class="growth-cell" data-cell="47,4" style="transform-origin:581px 65px; animation: bloom-pop 0.4s ease 58.81s;">
+    <g class="growth-cell" data-cell="47,4" style="transform-origin:581px 65px; animation: bloom-pop 0.4s ease 60.91s;">
     <rect x="576" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 50.55s forwards;"/>
     <g style="opacity:0; transform-origin:581px 65px; animation: plant-appear 0.5s ease 51.81s forwards;"><g data-plant="leaf"><g transform="translate(576 60)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="48,3" style="transform-origin:593px 53px; animation: bloom-pop 0.4s ease 58.81s;">
-    <rect x="588" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 51.95s forwards;"/>
-    <g style="opacity:0; transform-origin:593px 53px; animation: plant-appear 0.5s ease 53.21s forwards;"><g data-plant="leaf"><g transform="translate(588 48)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="46,3" style="transform-origin:569px 53px; animation: bloom-pop 0.4s ease 60.75s;">
+    <rect x="564" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 51.60s forwards;"/>
+    <g style="opacity:0; transform-origin:569px 53px; animation: plant-appear 0.5s ease 52.86s forwards;"><g data-plant="bud"><g transform="translate(564 48)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#b45255" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fca5a5" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="48,4" style="transform-origin:593px 65px; animation: bloom-pop 0.4s ease 58.89s;">
-    <rect x="588" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 53.00s forwards;"/>
-    <g style="opacity:0; transform-origin:593px 65px; animation: plant-appear 0.5s ease 54.26s forwards;"><g data-plant="leaf"><g transform="translate(588 60)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="48,4" style="transform-origin:593px 65px; animation: bloom-pop 0.4s ease 60.99s;">
+    <rect x="588" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 52.30s forwards;"/>
+    <g style="opacity:0; transform-origin:593px 65px; animation: plant-appear 0.5s ease 53.56s forwards;"><g data-plant="leaf"><g transform="translate(588 60)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="50,4" style="transform-origin:617px 65px; animation: bloom-pop 0.4s ease 59.05s;">
-    <rect x="612" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 53.00s forwards;"/>
-    <g style="opacity:0; transform-origin:617px 65px; animation: plant-appear 0.5s ease 54.26s forwards;"><g data-plant="leaf"><g transform="translate(612 60)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="48,3" style="transform-origin:593px 53px; animation: bloom-pop 0.4s ease 60.91s;">
+    <rect x="588" y="48" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 52.65s forwards;"/>
+    <g style="opacity:0; transform-origin:593px 53px; animation: plant-appear 0.5s ease 53.91s forwards;"><g data-plant="leaf"><g transform="translate(588 48)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
     </g>
-    <g class="growth-cell" data-cell="51,2" style="transform-origin:629px 41px; animation: bloom-pop 0.4s ease 59.13s;">
-    <rect x="624" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 54.75s forwards;"/>
-    <g style="opacity:0; transform-origin:629px 41px; animation: plant-appear 0.5s ease 56.01s forwards;"><g data-plant="leaf"><g transform="translate(624 36)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    <g class="growth-cell" data-cell="50,4" style="transform-origin:617px 65px; animation: bloom-pop 0.4s ease 61.15s;">
+    <rect x="612" y="60" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 54.75s forwards;"/>
+    <g style="opacity:0; transform-origin:617px 65px; animation: plant-appear 0.5s ease 56.01s forwards;"><g data-plant="leaf"><g transform="translate(612 60)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    </g>
+    <g class="growth-cell" data-cell="51,2" style="transform-origin:629px 41px; animation: bloom-pop 0.4s ease 61.23s;">
+    <rect x="624" y="36" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-2 1.8s ease 55.45s forwards;"/>
+    <g style="opacity:0; transform-origin:629px 41px; animation: plant-appear 0.5s ease 56.71s forwards;"><g data-plant="leaf"><g transform="translate(624 36)" shape-rendering="crispEdges"><path fill="#4ade80" d="M3 2h1v1h-1zM5 2h1v1h-1zM2 3h1v1h-1zM6 3h1v1h-1z"/><path fill="#22c55e" d="M4 2h1v1h-1zM4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1z"/></g></g></g>
+    </g>
+    <g class="growth-cell" data-cell="52,0" style="transform-origin:641px 17px; animation: bloom-pop 0.4s ease 61.47s;">
+    <rect x="636" y="12" width="10" height="10" rx="2" fill="#2a1f14" style="animation: grow-to-3 1.8s ease 56.85s forwards;"/>
+    <g style="opacity:0; transform-origin:641px 17px; animation: plant-appear 0.5s ease 58.11s forwards;"><g data-plant="bud"><g transform="translate(636 12)" shape-rendering="crispEdges"><path fill="#15351f" d="M3 0h3v1h-3zM2 1h1v1h-1zM6 1h1v1h-1zM2 2h1v1h-1zM6 2h1v1h-1z"/><path fill="#b45255" d="M3 1h1v1h-1zM5 1h1v1h-1z"/><path fill="#ffe1d6" d="M4 1h1v1h-1z"/><path fill="#fca5a5" d="M3 2h3v1h-3z"/><path fill="#4ade80" d="M3 3h1v1h-1zM5 3h1v1h-1zM2 4h1v1h-1zM6 4h1v1h-1z"/><path fill="#22c55e" d="M4 3h1v1h-1zM4 4h1v1h-1zM4 5h1v1h-1zM4 6h1v1h-1zM4 7h1v1h-1z"/></g></g></g>
+    <g style="opacity:0; transform-origin:641px 17px; animation: plant-appear 0.4s ease 58.41s forwards;"><g><rect x="643" y="13" width="1" height="1" fill="#1c1917"/><rect x="642" y="14" width="1" height="1" fill="#dc2626"/><rect x="643" y="14" width="1" height="1" fill="#1c1917"/><rect x="644" y="14" width="1" height="1" fill="#dc2626"/><rect x="642" y="15" width="1" height="1" fill="#dc2626"/><rect x="643" y="15" width="1" height="1" fill="#1c1917"/><rect x="644" y="15" width="1" height="1" fill="#dc2626"/><rect x="643" y="16" width="1" height="1" fill="#1c1917"/><rect x="644" y="13" width="1" height="1" fill="#ffffff"/></g></g>
     </g>
     <g opacity="0.5"><g><rect x="14" y="17" width="1" height="1" fill="#65a30d"/><rect x="15" y="16" width="1" height="1" fill="#84cc16"/><rect x="15" y="17" width="1" height="1" fill="#65a30d"/><rect x="18" y="17" width="1" height="1" fill="#65a30d"/><rect x="19" y="16" width="1" height="1" fill="#84cc16"/><rect x="19" y="17" width="1" height="1" fill="#65a30d"/></g></g>
     <g opacity="0.6"><g><rect x="15" y="52" width="1" height="1" fill="#ef4444"/><rect x="16" y="52" width="1" height="1" fill="#ef4444"/><rect x="17" y="52" width="1" height="1" fill="#ef4444"/><rect x="14" y="53" width="1" height="1" fill="#ef4444"/><rect x="15" y="53" width="1" height="1" fill="#fef3c7"/><rect x="16" y="53" width="1" height="1" fill="#ef4444"/><rect x="17" y="53" width="1" height="1" fill="#fef3c7"/><rect x="18" y="53" width="1" height="1" fill="#ef4444"/><rect x="15" y="54" width="1" height="1" fill="#e5e1d8"/><rect x="16" y="54" width="1" height="1" fill="#e5e1d8"/><rect x="17" y="54" width="1" height="1" fill="#e5e1d8"/><rect x="16" y="55" width="1" height="1" fill="#e5e1d8"/></g></g>
@@ -1061,7 +1081,6 @@
     <g opacity="0.5"><g><rect x="626" y="65" width="1" height="1" fill="#65a30d"/><rect x="627" y="64" width="1" height="1" fill="#84cc16"/><rect x="627" y="65" width="1" height="1" fill="#65a30d"/><rect x="630" y="65" width="1" height="1" fill="#65a30d"/><rect x="631" y="64" width="1" height="1" fill="#84cc16"/><rect x="631" y="65" width="1" height="1" fill="#65a30d"/></g></g>
     <g opacity="0.5"><g><rect x="627" y="76" width="1" height="1" fill="#84cc16"/><rect x="627" y="77" width="1" height="1" fill="#65a30d"/><rect x="629" y="75" width="1" height="1" fill="#84cc16"/><rect x="629" y="76" width="1" height="1" fill="#65a30d"/><rect x="629" y="77" width="1" height="1" fill="#65a30d"/><rect x="631" y="77" width="1" height="1" fill="#84cc16"/><rect x="631" y="78" width="1" height="1" fill="#65a30d"/></g></g>
     <g opacity="0.5"><g><rect x="628" y="88" width="1" height="1" fill="#3b82f6"/><rect x="629" y="88" width="1" height="1" fill="#60a5fa"/><rect x="627" y="89" width="1" height="1" fill="#3b82f6"/><rect x="628" y="89" width="1" height="1" fill="#60a5fa"/><rect x="629" y="89" width="1" height="1" fill="#3b82f6"/><rect x="630" y="89" width="1" height="1" fill="#60a5fa"/><rect x="627" y="90" width="1" height="1" fill="#60a5fa"/><rect x="628" y="90" width="1" height="1" fill="#3b82f6"/><rect x="629" y="90" width="1" height="1" fill="#93c5fd"/><rect x="630" y="90" width="1" height="1" fill="#3b82f6"/><rect x="628" y="91" width="1" height="1" fill="#60a5fa"/><rect x="629" y="91" width="1" height="1" fill="#3b82f6"/></g></g>
-    <g opacity="0.5"><g><rect x="639" y="17" width="1" height="1" fill="#4b5563"/><rect x="640" y="17" width="1" height="1" fill="#6b7280"/><rect x="641" y="17" width="1" height="1" fill="#4b5563"/><rect x="639" y="18" width="1" height="1" fill="#6b7280"/><rect x="640" y="18" width="1" height="1" fill="#9ca3af"/><rect x="641" y="18" width="1" height="1" fill="#6b7280"/><rect x="640" y="19" width="1" height="1" fill="#4b5563"/></g></g>
   </g>
   <g class="watering-sparkles" data-cell="0,5" data-actor="0" transform="translate(17, 77)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
@@ -1085,26 +1104,26 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 1.73500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="42,2" data-actor="2" transform="translate(521, 41)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="42,3" data-actor="2" transform="translate(521, 53)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 1.80500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 1.78400s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 2.12000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 2.03600s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 2.43500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 2.28800s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="41,2" data-actor="2" transform="translate(509, 41)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="41,3" data-actor="2" transform="translate(509, 53)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 3.90500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 3.55500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 4.22000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 3.87000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 4.53500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 4.18500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="33,2" data-actor="1" transform="translate(413, 41)" pointer-events="none">
@@ -1118,15 +1137,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 5.23500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="41,1" data-actor="2" transform="translate(509, 29)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="41,2" data-actor="2" transform="translate(509, 41)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 6.00500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 5.65500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 6.32000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 5.97000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 6.63500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 6.28500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="33,3" data-actor="1" transform="translate(413, 53)" pointer-events="none">
@@ -1140,15 +1159,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 7.33500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="40,1" data-actor="2" transform="translate(497, 29)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="41,1" data-actor="2" transform="translate(509, 29)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 8.10500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 7.75500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 8.42000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 8.07000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 8.73500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 8.38500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="20,5" data-actor="0" transform="translate(257, 77)" pointer-events="none">
@@ -1173,15 +1192,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 10.13500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="40,0" data-actor="2" transform="translate(497, 17)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="40,1" data-actor="2" transform="translate(497, 29)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 10.20500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 9.85500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 10.52000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 10.17000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 10.83500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 10.48500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="21,5" data-actor="0" transform="translate(269, 77)" pointer-events="none">
@@ -1206,15 +1225,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 12.23500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="41,0" data-actor="2" transform="translate(509, 17)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="40,0" data-actor="2" transform="translate(497, 17)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 12.30500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 11.95500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 12.62000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 12.27000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 12.93500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 12.58500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="22,6" data-actor="0" transform="translate(281, 89)" pointer-events="none">
@@ -1239,15 +1258,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 14.33500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="42,1" data-actor="2" transform="translate(521, 29)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="41,0" data-actor="2" transform="translate(509, 17)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 14.75500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 14.05500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 15.07000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 14.37000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 15.38500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 14.68500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="28,5" data-actor="1" transform="translate(353, 77)" pointer-events="none">
@@ -1261,15 +1280,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 16.78500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="43,1" data-actor="2" transform="translate(533, 29)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="42,1" data-actor="2" transform="translate(521, 29)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 16.83400s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 16.50500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 17.08600s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 16.82000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 17.33800s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 17.13500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="22,2" data-actor="0" transform="translate(281, 41)" pointer-events="none">
@@ -1294,15 +1313,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 18.88500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="44,1" data-actor="2" transform="translate(545, 29)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="42,2" data-actor="2" transform="translate(521, 41)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 18.58400s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 18.60500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 18.83600s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 18.92000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 19.08800s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 19.23500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="23,0" data-actor="0" transform="translate(293, 17)" pointer-events="none">
@@ -1316,15 +1335,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 20.28500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="45,0" data-actor="2" transform="translate(557, 17)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="43,1" data-actor="2" transform="translate(533, 29)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 20.70500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 21.03400s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 21.02000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 21.28600s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 21.33500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 21.53800s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="26,3" data-actor="1" transform="translate(329, 53)" pointer-events="none">
@@ -1349,15 +1368,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 23.08500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="45,2" data-actor="2" transform="translate(557, 41)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="44,1" data-actor="2" transform="translate(545, 29)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 23.13400s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 22.78400s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 23.38600s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 23.03600s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 23.63800s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 23.28800s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="26,2" data-actor="1" transform="translate(329, 41)" pointer-events="none">
@@ -1382,7 +1401,7 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 25.03800s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="45,3" data-actor="2" transform="translate(557, 53)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="45,0" data-actor="2" transform="translate(557, 17)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 24.90500s both;"/>
       </g>
@@ -1404,26 +1423,26 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 27.28500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="45,4" data-actor="2" transform="translate(557, 65)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="45,2" data-actor="2" transform="translate(557, 41)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 27.00500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 27.33400s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 27.32000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 27.58600s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 27.63500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 27.83800s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="44,4" data-actor="2" transform="translate(545, 65)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="45,3" data-actor="2" transform="translate(557, 53)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 29.08400s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 29.10500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 29.33600s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 29.42000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 29.58800s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 29.73500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="37,0" data-actor="0" transform="translate(461, 17)" pointer-events="none">
@@ -1437,15 +1456,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 30.78500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="43,3" data-actor="2" transform="translate(533, 53)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="45,4" data-actor="2" transform="translate(557, 65)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 31.18400s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 31.20500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 31.43600s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 31.52000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 31.68800s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 31.83500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="38,1" data-actor="1" transform="translate(473, 29)" pointer-events="none">
@@ -1459,17 +1478,6 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 32.53500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="42,3" data-actor="2" transform="translate(521, 53)" pointer-events="none">
-      <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 32.93400s both;"/>
-      </g>
-      <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 33.18600s both;"/>
-      </g>
-      <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 33.43800s both;"/>
-      </g>
-    </g>
   <g class="watering-sparkles" data-cell="38,2" data-actor="0" transform="translate(473, 41)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 32.95500s both;"/>
@@ -1479,6 +1487,17 @@
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 33.58500s both;"/>
+      </g>
+    </g>
+  <g class="watering-sparkles" data-cell="44,4" data-actor="2" transform="translate(545, 65)" pointer-events="none">
+      <g transform="translate(-4, 3) scale(0.8)">
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 33.28400s both;"/>
+      </g>
+      <g transform="translate(4, 3.5) scale(0.65)">
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 33.53600s both;"/>
+      </g>
+      <g transform="translate(0, 4.5) scale(0.75)">
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 33.78800s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="38,3" data-actor="1" transform="translate(473, 53)" pointer-events="none">
@@ -1492,15 +1511,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 34.98500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="41,3" data-actor="2" transform="translate(509, 53)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="43,3" data-actor="2" transform="translate(533, 53)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 34.70500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 35.38400s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 35.02000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 35.63600s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 35.33500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 35.88800s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="37,4" data-actor="0" transform="translate(461, 65)" pointer-events="none">
@@ -1525,15 +1544,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 37.43500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="41,4" data-actor="2" transform="translate(509, 65)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="43,5" data-actor="2" transform="translate(533, 77)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 36.80500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 37.50500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 37.12000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 37.82000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 37.43500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 38.13500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="37,6" data-actor="0" transform="translate(461, 89)" pointer-events="none">
@@ -1558,15 +1577,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 39.38800s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="41,6" data-actor="2" transform="translate(509, 89)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="42,5" data-actor="2" transform="translate(521, 77)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 39.25500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 39.60500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 39.57000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 39.92000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 39.88500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 40.23500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="36,6" data-actor="0" transform="translate(449, 89)" pointer-events="none">
@@ -1591,15 +1610,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 41.28500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="40,6" data-actor="2" transform="translate(497, 89)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="41,4" data-actor="2" transform="translate(509, 65)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 41.35500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 42.05500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 41.67000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 42.37000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 41.98500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 42.68500s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="38,6" data-actor="0" transform="translate(473, 89)" pointer-events="none">
@@ -1613,18 +1632,18 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 43.38500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="42,5" data-actor="1" transform="translate(521, 77)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="40,6" data-actor="1" transform="translate(497, 89)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 43.80500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 42.75500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 44.12000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 43.07000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 44.43500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 43.38500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="43,5" data-actor="2" transform="translate(533, 77)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="41,6" data-actor="2" transform="translate(509, 89)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 44.50500s both;"/>
       </g>
@@ -1657,26 +1676,15 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 47.08800s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="46,3" data-actor="2" transform="translate(569, 53)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="47,6" data-actor="2" transform="translate(581, 89)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 48.00500s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 48.33400s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 48.32000s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 48.58600s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 48.63500s both;"/>
-      </g>
-    </g>
-  <g class="watering-sparkles" data-cell="47,6" data-actor="0" transform="translate(581, 89)" pointer-events="none">
-      <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 49.03400s both;"/>
-      </g>
-      <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 49.28600s both;"/>
-      </g>
-      <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 49.53800s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 48.83800s both;"/>
       </g>
     </g>
   <g class="watering-sparkles" data-cell="47,4" data-actor="1" transform="translate(581, 65)" pointer-events="none">
@@ -1690,40 +1698,40 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 49.53800s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="48,3" data-actor="2" transform="translate(593, 53)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="46,3" data-actor="0" transform="translate(569, 53)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 50.43400s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 49.75500s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 50.68600s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 50.07000s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 50.93800s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 50.38500s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="48,4" data-actor="0" transform="translate(593, 65)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="48,4" data-actor="2" transform="translate(593, 65)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.48400s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 50.78400s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.73600s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.03600s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.98800s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.28800s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="50,4" data-actor="1" transform="translate(617, 65)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="48,3" data-actor="1" transform="translate(593, 53)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.48400s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.13400s both;"/>
       </g>
       <g transform="translate(4, 3.5) scale(0.65)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.73600s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.38600s both;"/>
       </g>
       <g transform="translate(0, 4.5) scale(0.75)">
-        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.98800s both;"/>
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 51.63800s both;"/>
       </g>
     </g>
-  <g class="watering-sparkles" data-cell="51,2" data-actor="2" transform="translate(629, 41)" pointer-events="none">
+  <g class="watering-sparkles" data-cell="50,4" data-actor="0" transform="translate(617, 65)" pointer-events="none">
       <g transform="translate(-4, 3) scale(0.8)">
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 53.23400s both;"/>
       </g>
@@ -1734,9 +1742,31 @@
         <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 53.73800s both;"/>
       </g>
     </g>
+  <g class="watering-sparkles" data-cell="51,2" data-actor="2" transform="translate(629, 41)" pointer-events="none">
+      <g transform="translate(-4, 3) scale(0.8)">
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 53.93400s both;"/>
+      </g>
+      <g transform="translate(4, 3.5) scale(0.65)">
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 54.18600s both;"/>
+      </g>
+      <g transform="translate(0, 4.5) scale(0.75)">
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.70000s ease-out 54.43800s both;"/>
+      </g>
+    </g>
+  <g class="watering-sparkles" data-cell="52,0" data-actor="1" transform="translate(641, 17)" pointer-events="none">
+      <g transform="translate(-4, 3) scale(0.8)">
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 55.00500s both;"/>
+      </g>
+      <g transform="translate(4, 3.5) scale(0.65)">
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#f9a8d4" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 55.32000s both;"/>
+      </g>
+      <g transform="translate(0, 4.5) scale(0.75)">
+        <path class="watering-sparkle" d="M-0.35-1H0.35V-0.35H1V0.35H0.35V1H-0.35V0.35H-1V-0.35H-0.35Z" fill="#fff3b0" opacity="0" style="animation: watering-sparkle 0.87500s ease-out 55.63500s both;"/>
+      </g>
+    </g>
   <g id="actor-layer">
-    <g style="--wing-phase: 0.000s; animation: actor-move-0 52.50s linear 0.30s both, actor-fade-0 62.09s linear 0s both;">
-      <g class="actor-facing" style="transform-origin: 0px 0px; animation: actor-facing-0 52.50s step-end 0.30s both;">
+    <g style="--wing-phase: 0.000s; animation: actor-move-0 54.25s linear 0.30s both, actor-fade-0 64.27s linear 0s both;">
+      <g class="actor-facing" style="transform-origin: 0px 0px; animation: actor-facing-0 54.25s step-end 0.30s both;">
         <g transform="translate(-5, -5) scale(1.000)">
           <svg viewBox="0 0 10 10" width="10" height="10" overflow="visible">
             <!-- Pixel-art bee (10x10 grid, 1px = 1 dot) -->
@@ -1763,8 +1793,8 @@
         </g>
       </g>
     </g>
-  <g style="--wing-phase: -0.047s; animation: actor-move-1 51.80s linear 1.00s both, actor-fade-1 62.09s linear 0s both;">
-      <g class="actor-facing" style="transform-origin: 0px 0px; animation: actor-facing-1 51.80s step-end 1.00s both;">
+  <g style="--wing-phase: -0.047s; animation: actor-move-1 55.65s linear 1.00s both, actor-fade-1 64.27s linear 0s both;">
+      <g class="actor-facing" style="transform-origin: 0px 0px; animation: actor-facing-1 55.65s step-end 1.00s both;">
         <g transform="translate(-5, -5) scale(1.000)">
           <svg viewBox="0 0 10 10" width="10" height="10" overflow="visible">
             <!-- Pixel-art bee (10x10 grid, 1px = 1 dot) -->
@@ -1791,8 +1821,8 @@
         </g>
       </g>
     </g>
-  <g style="--wing-phase: -0.094s; animation: actor-move-2 52.85s linear 1.70s both, actor-fade-2 62.09s linear 0s both;">
-      <g class="actor-facing" style="transform-origin: 0px 0px; animation: actor-facing-2 52.85s step-end 1.70s both;">
+  <g style="--wing-phase: -0.094s; animation: actor-move-2 53.55s linear 1.70s both, actor-fade-2 64.27s linear 0s both;">
+      <g class="actor-facing" style="transform-origin: 0px 0px; animation: actor-facing-2 53.55s step-end 1.70s both;">
         <g transform="translate(-5, -5) scale(1.000)">
           <svg viewBox="0 0 10 10" width="10" height="10" overflow="visible">
             <!-- Pixel-art bee (10x10 grid, 1px = 1 dot) -->
