@@ -712,6 +712,7 @@
     <rect x="636" y="48" width="10" height="10" rx="2" fill="#2a1f14"/>
     <rect x="636" y="60" width="10" height="10" rx="2" fill="#2a1f14"/>
     <rect x="636" y="72" width="10" height="10" rx="2" fill="#2a1f14"/>
+    <rect x="636" y="84" width="10" height="10" rx="2" fill="#2a1f14"/>
   </g>
   <g id="growth-layer">
     <g class="growth-cell" data-cell="0,5" style="transform-origin:17px 77px; animation: bloom-pop 0.4s ease 61.39s;">
